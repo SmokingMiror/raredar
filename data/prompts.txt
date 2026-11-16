@@ -1,0 +1,414 @@
+# Prompt bank source. Run `npm run prompts` to compile to src/data/prompts.json.
+# Header:  @ id | category | prompt text
+# Tiers:   R Rookie 10 · S Showboat 15 · W Wingman 30 · A Ace 60 · X Stealth 85 · B Sonic Boom 100
+# Answers are separated by ";", aliases by "/" (first form is the display text).
+
+@ africa | Geography | Name a country in Africa.
+R Egypt; South Africa; Nigeria; Kenya; Morocco
+S Madagascar
+W Ghana; Ethiopia; Algeria; Tunisia; Libya; Somalia; Sudan; Zimbabwe; Uganda; Tanzania; Senegal; Cameroon; Congo/Republic of the Congo/Congo-Brazzaville; Democratic Republic of the Congo/DRC/DR Congo/Congo-Kinshasa
+A Rwanda; Zambia; Angola; Namibia; Botswana; Mali; Ivory Coast/Côte d'Ivoire; Mozambique; Malawi; Niger; Chad; Sierra Leone; Liberia; Mauritius; Seychelles; Guinea; Gambia
+X Burkina Faso; Benin; Togo; Gabon; Mauritania; Eritrea; Djibouti; South Sudan; Lesotho; Eswatini/Swaziland; Burundi; Central African Republic/CAR; Equatorial Guinea; Guinea-Bissau; Cape Verde/Cabo Verde
+B São Tomé and Príncipe/Sao Tome; Comoros
+
+@ eucapital | Geography | Name a capital city in Europe.
+R London; Paris; Rome; Berlin; Madrid
+S Vatican City/Vatican
+W Dublin; Lisbon; Amsterdam; Brussels; Vienna; Athens; Moscow; Stockholm; Oslo; Copenhagen; Prague; Warsaw
+A Budapest; Helsinki; Bern; Edinburgh; Cardiff; Belfast; Kyiv/Kiev; Bucharest; Reykjavik; Belgrade; Monaco; Luxembourg/Luxembourg City; Sofia; Zagreb; Bratislava; Valletta; Minsk
+X Tallinn; Riga; Vilnius; Ljubljana; Sarajevo; Tirana; Skopje; Podgorica; Nicosia; Andorra la Vella; San Marino
+B Chisinau/Chișinău; Vaduz
+
+@ usstate | Geography | Name a US state.
+R California; Texas; Florida; New York
+S Alaska; Hawaii
+W Washington; Nevada; Arizona; Ohio; Georgia; Colorado; Michigan; Illinois; Oregon; Utah; New Jersey; Pennsylvania; Massachusetts; Louisiana; Tennessee
+A Kentucky; Virginia; North Carolina; South Carolina; Alabama; Mississippi; Minnesota; Wisconsin; Montana; Kansas; Missouri; Oklahoma; Indiana; Iowa; Arkansas; Maine; Connecticut; New Mexico; Maryland; Vermont; Idaho; Wyoming; Nebraska
+X North Dakota; South Dakota; West Virginia; New Hampshire; Rhode Island
+B Delaware
+
+@ nato | Aviation | Name a word from the NATO phonetic alphabet.
+R Alpha/Alfa; Bravo; Charlie; Delta
+S Zulu
+W Echo; Foxtrot; Tango; Victor; X-ray/Xray; Yankee; Romeo; Oscar; Hotel
+A Golf; India; Juliet/Juliett; Mike; Sierra; Whiskey/Whisky; November; Papa
+X Kilo; Lima; Quebec
+B Uniform
+
+@ element | Science | Name a chemical element.
+R Oxygen; Hydrogen; Carbon; Gold
+S Plutonium; Uranium
+W Nitrogen; Helium; Iron; Silver; Copper; Sodium; Calcium; Lead; Neon; Chlorine; Aluminium/Aluminum; Zinc; Mercury
+A Potassium; Magnesium; Sulfur/Sulphur; Phosphorus; Tin; Platinum; Lithium; Titanium; Argon; Silicon; Nickel; Iodine; Fluorine; Cobalt; Radium; Tungsten; Chromium; Krypton; Xenon; Radon; Boron; Arsenic
+X Beryllium; Manganese; Bismuth; Cadmium; Barium; Gallium; Germanium; Osmium; Iridium; Palladium; Selenium; Strontium; Vanadium; Thorium; Caesium/Cesium; Antimony; Polonium; Neodymium; Americium; Einsteinium; Praseodymium; Lutetium; Moscovium; Hafnium
+B Ytterbium; Oganesson
+
+@ bone | Science | Name a bone in the human body.
+R Femur; Skull; Rib/Ribs
+S Stapes/Stirrup
+W Tibia/Shinbone; Fibula; Humerus; Vertebra/Vertebrae/Spine/Backbone; Pelvis/Hip bone; Mandible/Jaw/Jawbone; Clavicle/Collarbone; Patella/Kneecap; Sternum/Breastbone; Radius; Ulna; Scapula/Shoulder blade
+A Coccyx/Tailbone; Cranium; Sacrum; Phalanges/Phalanx; Metacarpal/Metacarpals; Metatarsal/Metatarsals; Incus/Anvil; Malleus/Hammer; Maxilla; Ilium; Carpals/Carpal; Tarsals/Tarsal; Zygomatic bone/Zygomatic/Cheekbone
+X Hyoid; Talus; Calcaneus/Heel bone; Ischium; Pubis; Scaphoid; Ethmoid; Sphenoid; Occipital bone/Occipital; Parietal bone/Parietal; Temporal bone/Temporal; Frontal bone/Frontal; Atlas; Axis; Nasal bone; Lacrimal bone/Lacrimal; Cuboid; Navicular; Vomer; Trapezium; Capitate; Lunate; Triquetrum; Cuneiform
+B Pisiform; Hamate
+
+@ olympic | Sport | Name a sport at the Summer Olympics.
+R Athletics/Track and field; Swimming; Football/Soccer; Gymnastics
+S Breaking/Breakdancing
+W Basketball; Tennis; Boxing; Cycling; Rowing; Diving; Volleyball; Hockey/Field hockey; Judo; Sailing; Golf; Rugby sevens/Rugby; Fencing; Wrestling; Weightlifting
+A Archery; Equestrian/Show jumping/Dressage/Eventing; Taekwondo; Badminton; Table tennis/Ping pong; Triathlon; Canoeing/Kayaking/Canoe sprint; Handball; Shooting; Water polo; Beach volleyball; Skateboarding; Surfing; Sport climbing/Climbing; BMX
+X Modern pentathlon; Artistic swimming/Synchronised swimming/Synchronized swimming; Trampoline; Rhythmic gymnastics; Marathon swimming/Open water swimming; Mountain biking; Karate; Baseball; Softball; Canoe slalom; Kitesurfing/Kiteboarding
+B Keirin; Omnium
+
+@ dog | Animals | Name a breed of dog.
+R Labrador/Labrador retriever/Lab; Golden retriever; German shepherd/Alsatian; Poodle
+S Chihuahua
+W Bulldog/English bulldog; French bulldog/Frenchie; Beagle; Dachshund/Sausage dog; Pug; Husky/Siberian husky; Rottweiler; Boxer; Dalmatian; Border collie; Jack Russell/Jack Russell terrier; Cocker spaniel; Great Dane; Greyhound; Dobermann/Doberman; Shih Tzu
+A Corgi/Welsh corgi; Pomeranian; Yorkshire terrier/Yorkie; Staffordshire bull terrier/Staffy/Staffie; Whippet; St Bernard/Saint Bernard; Bernese mountain dog; Shar Pei; Akita; Schnauzer; Bichon frise; Maltese; Weimaraner; Bloodhound; Basset hound; Newfoundland; Samoyed; Irish wolfhound; Cavalier King Charles spaniel/King Charles spaniel/Cavalier; Springer spaniel; Vizsla; Lhasa Apso; Chow chow; Shiba Inu; Afghan hound
+X Basenji; Rhodesian ridgeback; Pharaoh hound; Saluki; Komondor; Puli; Borzoi; Leonberger; Papillon; Bedlington terrier; Xoloitzcuintli/Xolo/Mexican hairless; Keeshond; Affenpinscher; Catahoula; Kelpie/Australian kelpie
+B Lagotto Romagnolo/Lagotto; Otterhound
+
+@ solar | Space | Name a planet, dwarf planet or moon in our solar system.
+R Mars; Jupiter; Saturn; Earth
+S Pluto
+W Venus; Mercury; Neptune; Uranus; Moon/Luna/The Moon
+A Titan; Europa; Io; Ganymede; Callisto; Ceres; Phobos; Deimos; Triton; Enceladus; Eris
+X Charon; Oberon; Titania; Miranda; Ariel; Umbriel; Haumea; Makemake; Mimas; Rhea; Iapetus; Dione; Tethys; Hyperion; Sedna
+B Amalthea; Nereid
+
+@ constellation | Space | Name a constellation.
+R Orion; Ursa Major/Great Bear/Big Dipper/Plough
+S Crux/Southern Cross
+W Ursa Minor/Little Bear/Little Dipper; Cassiopeia; Leo; Scorpius/Scorpio; Taurus; Gemini; Aries; Cancer; Virgo; Libra; Sagittarius; Capricornus/Capricorn; Aquarius; Pisces; Pegasus; Andromeda
+A Draco; Perseus; Cygnus; Lyra; Hercules; Canis Major; Canis Minor; Aquila; Centaurus; Hydra; Cepheus; Auriga; Boötes/Bootes
+X Corona Borealis; Ophiuchus; Lepus; Monoceros; Eridanus; Carina; Vela; Puppis; Columba; Delphinus; Sagitta; Vulpecula; Cetus; Corvus; Pavo; Tucana
+B Camelopardalis; Horologium
+
+@ cheese | Food & Drink | Name a type of cheese.
+R Cheddar; Mozzarella; Brie; Parmesan/Parmigiano Reggiano/Parmigiano
+S Stilton
+W Camembert; Feta; Gouda; Edam; Emmental/Emmentaler/Swiss cheese; Gruyère/Gruyere; Halloumi; Red Leicester; Wensleydale; Ricotta; Mascarpone; Cream cheese; Roquefort; Gorgonzola; Cottage cheese; Blue cheese
+A Manchego; Pecorino; Comté; Paneer; Monterey Jack; Colby; Provolone; Jarlsberg; Double Gloucester; Caerphilly; Lancashire; Burrata; Raclette; Havarti; Boursin; Goat's cheese/Goat cheese/Chèvre; Danish blue; Taleggio; Port Salut; Reblochon
+X Époisses; Stinking Bishop; Limburger; Leerdammer; Fontina; Asiago; Cotija; Queso fresco; Oaxaca; Brunost/Gjetost; Saint Agur; Shropshire blue; Cornish Yarg/Yarg; Appenzeller; Tête de Moine
+B Casu marzu; Pule
+
+@ pasta | Food & Drink | Name a shape of pasta.
+R Spaghetti; Penne; Macaroni; Lasagne/Lasagna
+S Farfalle/Bow tie/Bowtie
+W Tagliatelle; Fettuccine/Fettucine; Linguine/Linguini; Ravioli; Tortellini; Rigatoni; Fusilli; Cannelloni; Gnocchi; Orzo; Conchiglie/Shells; Vermicelli; Pappardelle
+A Orecchiette; Ditalini; Rotini; Bucatini; Ziti; Cavatappi; Capellini/Angel hair; Paccheri; Gemelli; Radiatori; Agnolotti; Cappelletti; Tortelloni; Anelli/Hoops; Spaghettini
+X Trofie; Casarecce; Strozzapreti; Mafaldine; Campanelle; Lumache; Pici; Garganelli; Cavatelli; Fregola; Stelline; Corzetti; Busiate
+B Lorighittas; Su filindeu/Filindeu
+
+@ fruit | Food & Drink | Name a fruit.
+R Apple; Banana; Orange; Strawberry; Grape
+S Tomato
+W Pear; Peach; Mango; Pineapple; Watermelon; Cherry; Lemon; Lime; Kiwi/Kiwi fruit; Blueberry; Raspberry; Plum; Melon; Grapefruit; Coconut; Avocado
+A Apricot; Nectarine; Pomegranate; Papaya; Fig; Passion fruit; Blackberry; Cranberry; Lychee/Litchi; Clementine; Satsuma; Tangerine; Date; Guava; Cantaloupe; Gooseberry; Blackcurrant; Redcurrant; Olive
+X Durian; Rambutan; Persimmon/Sharon fruit; Quince; Kumquat; Starfruit/Carambola; Dragon fruit/Pitaya; Jackfruit; Mangosteen; Physalis/Cape gooseberry; Loquat; Feijoa; Tamarind; Elderberry; Medlar; Ugli fruit/Ugli; Damson; Greengage; Cherimoya/Custard apple
+B Salak/Snake fruit; Jabuticaba
+
+@ spice | Food & Drink | Name a herb or spice.
+R Basil; Black pepper/Pepper; Cinnamon; Oregano
+S Saffron
+W Parsley; Rosemary; Thyme; Mint; Coriander/Cilantro; Ginger; Garlic; Paprika; Cumin; Turmeric; Nutmeg; Chilli/Chili/Chilli powder; Sage; Dill; Bay leaf/Bay; Chives
+A Cardamom; Cloves/Clove; Star anise; Fennel/Fennel seed; Tarragon; Cayenne/Cayenne pepper; Allspice; Mustard seed; Vanilla; Marjoram; Lemongrass; Fenugreek; Caraway; Curry leaf/Curry leaves
+X Sumac; Za'atar; Asafoetida/Hing; Galangal; Mace; Sichuan pepper/Szechuan pepper; Lovage; Chervil; Juniper/Juniper berries; Nigella seeds/Nigella/Kalonji; Ajwain; Borage; Savory; Annatto; Long pepper; Epazote; Sorrel
+B Grains of paradise; Shiso/Perilla
+
+@ cocktail | Food & Drink | Name a cocktail.
+R Mojito; Margarita; Piña colada; Cosmopolitan/Cosmo
+S Sex on the Beach
+W Martini; Daiquiri; Old Fashioned; Manhattan; Bloody Mary; Long Island Iced Tea; Espresso martini; Negroni; Aperol spritz/Spritz; Tequila sunrise; Mai tai; Pornstar martini/Passion fruit martini; Gin and tonic/G&T
+A Caipirinha; Moscow mule; Whisky sour/Whiskey sour; Cuba libre; White Russian; Black Russian; Mint julep; Tom Collins; Gimlet; Sidecar; Bellini; Mimosa; Paloma; Dark 'n' Stormy/Dark and Stormy; Kir royale; Singapore sling; Sazerac; Pisco sour; Zombie; Blue Lagoon; Bramble
+X Corpse Reviver; Last Word; Hanky Panky; French 75; Boulevardier; Grasshopper; Sea breeze; Rusty nail; Vesper; Clover club; Penicillin; Hurricane; Harvey Wallbanger; Americano; Brandy Alexander; Godfather; Gibson; Ramos gin fizz/Ramos fizz
+B Aviation; Vieux Carré
+
+@ instrument | Music | Name a musical instrument.
+R Guitar; Piano; Drums/Drum kit; Violin
+S Triangle
+W Trumpet; Flute; Saxophone/Sax; Cello; Clarinet; Bass guitar/Bass; Harp; Trombone; Keyboard; Ukulele; Harmonica; Recorder; Tuba; Xylophone; Banjo
+A Oboe; Bassoon; French horn/Horn; Double bass/Upright bass; Viola; Accordion; Mandolin; Bagpipes; Tambourine; Organ; Harpsichord; Glockenspiel; Sitar; Didgeridoo; Cymbals; Bongos; Synthesizer/Synthesiser/Synth; Piccolo; Timpani/Kettle drum
+X Theremin; Cor anglais/English horn; Euphonium; Lute; Marimba; Steelpan/Steel drum/Steel pan; Tabla; Balalaika; Hurdy-gurdy; Zither; Koto; Shamisen; Djembe; Cajón; Celesta; Ocarina; Contrabassoon; Bodhrán; Kalimba/Thumb piano; Dulcimer; Erhu
+B Ondes Martenot; Nyckelharpa
+
+@ shakespeare | Culture | Name a play by William Shakespeare.
+R Romeo and Juliet; Hamlet; Macbeth
+S A Midsummer Night's Dream/Midsummer Night's Dream
+W Othello; King Lear; The Tempest; Twelfth Night; Much Ado About Nothing/Much Ado; The Merchant of Venice/Merchant of Venice; Julius Caesar
+A As You Like It; The Taming of the Shrew/Taming of the Shrew; Richard III/Richard the Third/Richard 3; Henry V/Henry the Fifth/Henry 5; Antony and Cleopatra; The Winter's Tale/Winter's Tale; The Comedy of Errors/Comedy of Errors; The Merry Wives of Windsor/Merry Wives of Windsor; Henry IV/Henry the Fourth/Henry 4; Richard II/Richard the Second/Richard 2
+X Coriolanus; Titus Andronicus; Measure for Measure; All's Well That Ends Well; Troilus and Cressida; Love's Labour's Lost; Cymbeline; Pericles/Pericles, Prince of Tyre; Timon of Athens; King John; The Two Gentlemen of Verona/Two Gentlemen of Verona; Henry VI/Henry the Sixth/Henry 6; Henry VIII/Henry the Eighth/Henry 8
+B The Two Noble Kinsmen/Two Noble Kinsmen; Edward III/Edward the Third/Edward 3
+
+@ pixar | Film & TV | Name a Pixar feature film.
+R Toy Story; Finding Nemo; The Incredibles/Incredibles
+S Up
+W Monsters, Inc./Monsters Inc; Cars; Inside Out; WALL-E; Ratatouille; Coco; Toy Story 2; Toy Story 3; A Bug's Life/Bug's Life; Finding Dory
+A Brave; Toy Story 4; Incredibles 2; Monsters University; Cars 2; Cars 3; Soul; Luca; Turning Red; Inside Out 2; Elemental; The Good Dinosaur/Good Dinosaur
+X Onward; Lightyear; Toy Story 5
+B Elio; Hoppers
+
+@ bond | Film & TV | Name a James Bond film.
+R Goldfinger; Casino Royale; Skyfall
+S Dr. No/Doctor No
+W GoldenEye; Spectre; No Time to Die; From Russia with Love; Thunderball; The Spy Who Loved Me/Spy Who Loved Me; Moonraker; Live and Let Die; Quantum of Solace; Die Another Day; Octopussy
+A You Only Live Twice; Tomorrow Never Dies; The World Is Not Enough/World Is Not Enough; The Man with the Golden Gun/Man with the Golden Gun; A View to a Kill/View to a Kill; For Your Eyes Only
+X Never Say Never Again; The Living Daylights/Living Daylights; Licence to Kill/License to Kill; Diamonds Are Forever
+B On Her Majesty's Secret Service/OHMSS
+
+@ epl | Sport | Name a club that has played in the English Premier League.
+R Manchester United/Man United/Man Utd; Liverpool; Arsenal; Chelsea; Manchester City/Man City
+S Leicester City/Leicester
+W Everton; Newcastle United/Newcastle; Aston Villa/Villa; West Ham United/West Ham; Leeds United/Leeds; Southampton; Tottenham Hotspur/Tottenham/Spurs; Wolverhampton Wanderers/Wolves/Wolverhampton; Brighton & Hove Albion/Brighton; Nottingham Forest/Forest; Crystal Palace/Palace; Fulham
+A Blackburn Rovers/Blackburn; Sunderland; Middlesbrough/Boro; AFC Bournemouth/Bournemouth; Brentford; Burnley; Norwich City/Norwich; Watford; West Bromwich Albion/West Brom; Stoke City/Stoke; Ipswich Town/Ipswich; Sheffield United; Sheffield Wednesday; Wigan Athletic/Wigan; Bolton Wanderers/Bolton; Derby County/Derby; Portsmouth; Charlton Athletic/Charlton; Queens Park Rangers/QPR; Swansea City/Swansea; Cardiff City/Cardiff; Coventry City/Coventry; Huddersfield Town/Huddersfield; Hull City/Hull; Birmingham City/Birmingham
+X Wimbledon; Barnsley; Bradford City/Bradford; Blackpool; Reading; Luton Town/Luton
+B Swindon Town/Swindon; Oldham Athletic/Oldham
+
+@ f1 | Sport | Name a Formula 1 world drivers' champion.
+R Lewis Hamilton/Hamilton; Michael Schumacher/Schumacher; Max Verstappen/Verstappen
+S Ayrton Senna/Senna
+W Sebastian Vettel/Vettel; Fernando Alonso/Alonso; Alain Prost/Prost; Kimi Räikkönen/Raikkonen; Nigel Mansell/Mansell; Damon Hill; Jenson Button/Button; Niki Lauda/Lauda; James Hunt
+A Mika Häkkinen/Hakkinen; Jackie Stewart; Nico Rosberg; Jacques Villeneuve; Juan Manuel Fangio/Fangio; Nelson Piquet/Piquet; Emerson Fittipaldi/Fittipaldi; Jim Clark; Graham Hill; Lando Norris/Norris
+X Alberto Ascari/Ascari; Jack Brabham/Brabham; Mario Andretti/Andretti; Keke Rosberg; Jody Scheckter/Scheckter; Alan Jones; John Surtees/Surtees; Jochen Rindt/Rindt; Nino Farina/Giuseppe Farina/Farina; Phil Hill
+B Denny Hulme/Hulme; Mike Hawthorn/Hawthorn
+
+@ boardgame | Games | Name a board game.
+R Monopoly; Chess; Scrabble; Cluedo/Clue
+S Catan/Settlers of Catan
+W Snakes and Ladders/Chutes and Ladders; Trivial Pursuit; Draughts/Checkers; Backgammon; Ludo; Battleships/Battleship; Connect Four/Connect 4; Guess Who; Operation; Risk; Mouse Trap; The Game of Life/Game of Life; Pictionary; Sorry!; Go
+A Ticket to Ride; Carcassonne; Pandemic; Mastermind; Othello/Reversi; Stratego; Kerplunk; Hungry Hungry Hippos/Hungry Hippos; Downfall; Frustration/Trouble; Mancala; Cranium; Articulate; Taboo; Codenames
+X Wingspan; Azul; Gloomhaven; Terraforming Mars; Agricola; Dominion; 7 Wonders/Seven Wonders; Splendor; Diplomacy; Puerto Rico; Power Grid; Twilight Imperium; Root; Scythe; Hive
+B Senet; Royal Game of Ur/Game of Ur
+
+@ carmaker | Everyday | Name a car manufacturer.
+R Ford; Toyota; BMW; Volkswagen/VW; Mercedes-Benz/Mercedes
+S Lamborghini
+W Ferrari; Audi; Honda; Nissan; Tesla; Porsche; Fiat; Volvo; Jaguar; Land Rover; Peugeot; Renault; Hyundai; Kia; Chevrolet/Chevy; Mazda; Vauxhall/Opel
+A Aston Martin; Bentley; Rolls-Royce; Bugatti; Maserati; McLaren; Subaru; Mitsubishi; Suzuki; Škoda/Skoda; Citroën; SEAT; Lexus; Mini; Alfa Romeo; Dodge; Jeep; Cadillac; Lotus; Buick; Chrysler; BYD; Polestar
+X Pagani; Koenigsegg; Dacia; Lada; Tata; Mahindra; Rimac; Morgan; Saab; Lancia; Rivian; Lucid; Smart; Genesis; Cupra; Infiniti; Acura; Geely; Chery; Proton; TVR; DeLorean
+B Trabant; Spyker
+
+@ airline | Aviation | Name an airline (past or present).
+R British Airways/BA; Emirates; Ryanair; easyJet
+S Pan Am/Pan American
+W American Airlines/American; Delta Air Lines/Delta; United Airlines/United; Lufthansa; Qantas; Air France; KLM; Virgin Atlantic/Virgin; Qatar Airways/Qatar; Singapore Airlines; Southwest Airlines/Southwest; Jet2; Wizz Air/Wizz; Etihad
+A Cathay Pacific; Air Canada; Turkish Airlines; Aer Lingus; Iberia; Japan Airlines/JAL; All Nippon Airways/ANA; Air New Zealand; JetBlue; Alaska Airlines; Swiss/Swiss International Air Lines; Finnair; SAS/Scandinavian Airlines; Norwegian; Vueling; TUI Airways/TUI; Korean Air; Air India; Thai Airways/Thai; Malaysia Airlines; Aeroflot; Spirit Airlines/Spirit; Frontier; Icelandair; EVA Air; flydubai; AirAsia; Loganair; Virgin Australia; TAP Air Portugal/TAP; ITA Airways; Alitalia; Aeroméxico; LATAM; Avianca; Ethiopian Airlines/Ethiopian
+X Saudia; Garuda Indonesia/Garuda; Air Mauritius; Air Seychelles; Royal Brunei; Royal Jordanian; Kenya Airways; Copa Airlines/Copa; Bangkok Airways; Hawaiian Airlines/Hawaiian; Air Tahiti Nui; Flybe; Monarch; TWA/Trans World Airlines
+B Air Koryo; Druk Air/Drukair
+
+@ planepart | Aviation | Name a part of an aeroplane.
+R Wing/Wings; Engine/Engines/Jet engine; Cockpit; Tail
+S Black box/Flight recorder
+W Wheels/Wheel; Landing gear/Undercarriage; Propeller/Prop; Fuselage; Window/Windows; Seat/Seats; Door/Doors; Nose; Cabin; Galley; Lavatory/Toilet/Loo; Overhead bin/Overhead locker; Flaps/Flap; Rudder
+A Aileron/Ailerons; Elevator/Elevators; Fin/Tail fin/Vertical stabiliser/Vertical stabilizer; Tailplane/Horizontal stabiliser/Horizontal stabilizer; Slats/Slat; Spoilers/Spoiler; Winglet/Winglets; Nacelle/Cowling; Control column/Yoke/Joystick/Stick; Throttle; Pitot tube; Turbine; Fan blades/Fan blade; Radome; Emergency exit; Cargo hold/Hold
+X Auxiliary power unit/APU; Trim tab; Empennage; Bulkhead; Static port; Angle of attack sensor/AoA sensor; Flight management system/FMS; Transponder; Thrust reverser/Reverser; Stringer/Stringers; Spar/Wing spar; Longeron; Ram air turbine/RAT; Altimeter; Attitude indicator/Artificial horizon; Head-up display/HUD
+B Flaperon; Vortex generator/Vortex generators
+
+@ dinosaur | Animals | Name a dinosaur.
+R Tyrannosaurus rex/T. rex/T-rex/Tyrannosaurus; Triceratops; Velociraptor/Raptor
+S Brontosaurus
+W Stegosaurus; Diplodocus; Brachiosaurus; Spinosaurus; Ankylosaurus; Iguanodon; Allosaurus; Apatosaurus; Parasaurolophus
+A Pachycephalosaurus; Dilophosaurus; Gallimimus; Compsognathus; Megalosaurus; Carnotaurus; Giganotosaurus; Argentinosaurus; Oviraptor; Deinonychus; Baryonyx; Utahraptor; Therizinosaurus; Microraptor; Archaeopteryx; Maiasaura; Protoceratops; Styracosaurus; Edmontosaurus; Plateosaurus; Coelophysis
+X Amargasaurus; Kentrosaurus; Nodosaurus; Ouranosaurus; Psittacosaurus; Troodon; Sinosauropteryx; Mamenchisaurus; Corythosaurus; Lambeosaurus; Suchomimus; Herrerasaurus; Eoraptor; Dreadnoughtus; Yutyrannus; Scelidosaurus; Hypsilophodon
+B Irritator; Bambiraptor
+
+@ bird | Animals | Name a species of bird.
+R Robin; Eagle/Bald eagle/Golden eagle; Pigeon; Penguin
+S Dodo
+W Owl; Parrot; Sparrow; Crow; Swan; Duck; Flamingo; Peacock/Peafowl; Ostrich; Seagull/Gull; Hawk; Falcon; Blackbird; Blue tit; Magpie; Hummingbird; Kingfisher; Woodpecker; Pelican; Chicken; Turkey; Goose
+A Albatross; Puffin; Toucan; Wren; Starling; Kiwi; Emu; Vulture; Heron; Stork; Kestrel; Finch; Goldfinch; Swallow; Swift; Jay; Raven; Jackdaw; Rook; Cockatoo; Budgerigar/Budgie; Canary; Cuckoo; Pheasant; Nightingale; Cardinal; Blue jay; Osprey; Condor; Cormorant; Kookaburra; Lyrebird; Cassowary; Macaw; Mallard; Partridge; Grouse
+X Hoopoe; Shoebill; Kakapo; Bittern; Nuthatch; Treecreeper; Dunnock; Wryneck; Oystercatcher; Avocet; Lapwing; Curlew; Godwit; Turnstone; Frigatebird; Booby/Blue-footed booby; Quetzal; Secretary bird; Ptarmigan; Capercaillie; Shrike; Waxwing; Bee-eater; Roller
+B Potoo; Hoatzin
+
+@ greekgod | Myth & Legend | Name a god or goddess from Greek mythology.
+R Zeus; Poseidon; Hades; Athena/Athene
+S Heracles/Hercules
+W Apollo; Aphrodite; Ares; Hermes; Hera; Artemis; Dionysus/Dionysos; Hephaestus/Hephaistos; Demeter; Nike; Eros; Cronus/Kronos; Gaia/Gaea
+A Persephone; Hestia; Pan; Nemesis; Helios; Selene; Eos; Hecate/Hekate; Uranus/Ouranos; Rhea; Iris; Morpheus; Hypnos; Thanatos; Atlas; Prometheus; Tyche; Hebe; Nyx; Chaos; Themis; Asclepius; Triton; Oceanus
+X Hyperion; Mnemosyne; Eris; Nereus; Proteus; Erebus; Tartarus; Boreas; Zephyrus; Aeolus; Priapus; Harmonia; Phobos; Deimos; Metis; Hemera; Aether; Enyo; Tethys; Phoebe; Plutus; Hymen
+B Eileithyia; Ananke
+
+@ gemstone | Nature | Name a gemstone.
+R Diamond; Ruby; Emerald; Sapphire
+S Pearl
+W Amethyst; Opal; Topaz; Jade; Garnet; Aquamarine; Turquoise; Onyx; Quartz; Amber; Peridot; Tanzanite
+A Citrine; Tourmaline; Lapis lazuli/Lapis; Moonstone; Obsidian; Jasper; Agate; Malachite; Tiger's eye; Zircon; Spinel; Alexandrite; Rose quartz; Morganite; Bloodstone; Carnelian; Coral; Jet; Beryl; Labradorite; Chrysoberyl
+X Kunzite; Iolite; Tsavorite; Sunstone; Rhodochrosite; Sodalite; Chrysoprase; Sardonyx; Larimar; Ammolite; Benitoite; Demantoid; Andalusite; Fluorite; Hematite/Haematite; Kyanite; Moldavite; Sphene/Titanite; Apatite
+B Painite; Taaffeite
+
+@ cloud | Aviation | Name a type of cloud.
+R Cumulus; Cirrus; Stratus
+S Cumulonimbus
+W Nimbus/Rain cloud; Nimbostratus; Altostratus; Altocumulus; Stratocumulus; Cirrostratus; Cirrocumulus; Thundercloud/Thunderhead/Storm cloud; Fog; Contrail/Vapour trail/Vapor trail/Condensation trail
+A Lenticular/Lenticularis; Mammatus; Anvil cloud/Anvil/Incus; Shelf cloud/Arcus; Wall cloud; Funnel cloud; Roll cloud/Volutus; Noctilucent; Nacreous/Mother of pearl cloud/Polar stratospheric; Pileus/Cap cloud; Pyrocumulus/Flammagenitus/Fire cloud; Mushroom cloud
+X Kelvin-Helmholtz/Fluctus; Castellanus; Fractus/Scud; Virga; Undulatus; Lacunosus; Uncinus; Fibratus; Floccus; Pannus; Velum; Tuba; Morning Glory; Banner cloud; Hole-punch cloud/Fallstreak hole
+B Asperitas; Homomutatus
+
+# ---- Added for mission packs (step 6) ---------------------------------------
+
+@ aviator | Aviation | Name a famous pilot or aviator (a real person).
+R Amelia Earhart/Earhart; Wright brothers/Orville Wright/Wilbur Wright/Wright; Neil Armstrong/Armstrong; Charles Lindbergh/Lindbergh
+S Red Baron/Manfred von Richthofen/Richthofen
+W Chuck Yeager/Yeager; Buzz Aldrin/Aldrin; Howard Hughes; Chesley Sullenberger/Sully/Captain Sully/Sullenberger; Douglas Bader/Bader; Yuri Gagarin/Gagarin; Amy Johnson; John Glenn
+A Bessie Coleman; Antoine de Saint-Exupéry/Saint-Exupery; Louis Blériot/Bleriot; Alcock and Brown/John Alcock/Arthur Whitten Brown; Jacqueline Cochran; Hanna Reitsch; Guy Gibson; Valentina Tereshkova/Tereshkova; Sally Ride; Jimmy Doolittle/Doolittle; Glenn Curtiss; Igor Sikorsky/Sikorsky; Eddie Rickenbacker/Rickenbacker; Steve Fossett; Harriet Quimby; Beryl Markham; Wiley Post
+X Alberto Santos-Dumont/Santos-Dumont; Otto Lilienthal/Lilienthal; Jean Batten; Bert Hinkler; Pancho Barnes; Sheila Scott; Eric Brown/Winkle Brown; Raymonde de Laroche; Hélène Dutrieu; Geoffrey de Havilland; Bob Hoover; Scott Crossfield; Jerrie Mock
+B Elinor Smith; Charles Kingsford Smith/Kingsford Smith
+
+@ aircraft | Aviation | Name a famous real aircraft type (civil or military).
+R Concorde; Boeing 747/747/Jumbo jet; Spitfire/Supermarine Spitfire
+S Wright Flyer
+W Airbus A380/A380; Boeing 737/737; Hawker Hurricane/Hurricane; Avro Lancaster/Lancaster; F-16/Fighting Falcon; F-35/Lightning II; SR-71/Blackbird; Harrier/Harrier jump jet; Eurofighter Typhoon/Typhoon; P-51 Mustang/Mustang/P-51; B-52/Stratofortress; Chinook; Apache; Black Hawk
+A Avro Vulcan/Vulcan; Tiger Moth; de Havilland Mosquito/Mosquito; Messerschmitt Bf 109/Bf 109/Me 109; Mitsubishi Zero/Zero; F-14/Tomcat; F-22/Raptor; Boeing 787/787/Dreamliner; Airbus A320/A320; DC-3/Dakota; Hindenburg; B-2 Spirit/B-2/Stealth bomber; F-117/Nighthawk; MiG-21; Panavia Tornado/Tornado; C-130 Hercules/C-130/Hercules; Spirit of St. Louis
+X Sopwith Camel/Camel; Fokker Dr.I/Fokker triplane; Spruce Goose/H-4 Hercules; Tupolev Tu-144/Tu-144/Concordski; Antonov An-225/An-225/Mriya; Bell X-1/X-1; X-15; Lockheed Constellation/Constellation; de Havilland Comet/Comet; Airbus Beluga/Beluga; Super Guppy; Gripen; Rafale; Sukhoi Su-27/Su-27/Flanker; Avro Arrow; U-2; V-22 Osprey/Osprey; PBY Catalina/Catalina; Boeing 707/707
+B Stratolaunch; Bristol Brabazon/Brabazon
+
+@ aircraftmaker | Aviation | Name a company that builds aircraft (past or present).
+R Boeing; Airbus
+S Supermarine
+W Lockheed Martin/Lockheed; Embraer; Bombardier; Cessna; Northrop Grumman/Northrop; McDonnell Douglas; Dassault; BAE Systems/BAE; Gulfstream; Learjet; Piper; de Havilland; Sukhoi; Mikoyan/MiG
+A Bell; Sikorsky; Antonov; Tupolev; Ilyushin; Fokker; Saab; Grumman; Hawker; Avro; Messerschmitt; Bristol; Douglas; Convair; Beechcraft; Pilatus; COMAC; Leonardo/AgustaWestland; Airbus Helicopters/Eurocopter; Cirrus; Diamond
+X Short Brothers/Shorts; Vickers; Handley Page; Blackburn; Fairey; Sopwith; Westland; Mitsubishi; Kawasaki; Dornier; Junkers; Heinkel; Focke-Wulf; Breguet; Yakovlev/Yak; ATR; Hindustan Aeronautics/HAL; Textron; Mooney; Robinson
+B Caudron; Gloster
+
+@ nfl | Sport | Name an NFL team.
+R Dallas Cowboys/Cowboys; New England Patriots/Patriots/Pats; Kansas City Chiefs/Chiefs
+S Green Bay Packers/Packers
+W San Francisco 49ers/49ers/Niners; Pittsburgh Steelers/Steelers; Philadelphia Eagles/Eagles; New York Giants/Giants; Miami Dolphins/Dolphins; Chicago Bears/Bears; Buffalo Bills/Bills; Denver Broncos/Broncos; Seattle Seahawks/Seahawks
+A Baltimore Ravens/Ravens; Las Vegas Raiders/Raiders/Oakland Raiders; Los Angeles Rams/Rams; New York Jets/Jets; Minnesota Vikings/Vikings; New Orleans Saints/Saints; Detroit Lions/Lions; Tampa Bay Buccaneers/Buccaneers/Bucs; Cincinnati Bengals/Bengals; Los Angeles Chargers/Chargers; Cleveland Browns/Browns; Indianapolis Colts/Colts; Atlanta Falcons/Falcons; Houston Texans/Texans; Arizona Cardinals/Cardinals
+X Jacksonville Jaguars/Jaguars/Jags; Carolina Panthers/Panthers; Tennessee Titans/Titans
+B Washington Commanders/Commanders
+
+@ nba | Sport | Name an NBA team (past or present).
+R Los Angeles Lakers/Lakers; Chicago Bulls/Bulls; Boston Celtics/Celtics
+S Golden State Warriors/Warriors
+W Miami Heat/Heat; New York Knicks/Knicks; Brooklyn Nets/Nets; San Antonio Spurs/Spurs; Houston Rockets/Rockets; Dallas Mavericks/Mavericks/Mavs; Philadelphia 76ers/76ers/Sixers; Toronto Raptors/Raptors; Cleveland Cavaliers/Cavaliers/Cavs
+A Los Angeles Clippers/Clippers; Phoenix Suns/Suns; Milwaukee Bucks/Bucks; Denver Nuggets/Nuggets; Detroit Pistons/Pistons; Utah Jazz/Jazz; Atlanta Hawks/Hawks; Orlando Magic/Magic; Oklahoma City Thunder/Thunder/OKC; Portland Trail Blazers/Trail Blazers/Blazers; Minnesota Timberwolves/Timberwolves; Indiana Pacers/Pacers; Sacramento Kings/Kings; Memphis Grizzlies/Grizzlies
+X New Orleans Pelicans/Pelicans; Charlotte Hornets/Hornets; Washington Wizards/Wizards; Seattle SuperSonics/SuperSonics/Sonics; Vancouver Grizzlies; New Jersey Nets; Charlotte Bobcats/Bobcats
+B Kansas City Kings; Buffalo Braves
+
+@ ballondor | Sport | Name a footballer who has won the Ballon d'Or.
+R Lionel Messi/Messi; Cristiano Ronaldo/Ronaldo/CR7
+S Ronaldinho
+W Zinedine Zidane/Zidane; Luka Modrić/Modric; Karim Benzema/Benzema; Kaká; Ronaldo Nazário/R9/Brazilian Ronaldo; Rodri; Michael Owen/Owen; Johan Cruyff/Cruyff; Franz Beckenbauer/Beckenbauer; Marco van Basten/Van Basten; George Best; Bobby Charlton
+A Michel Platini/Platini; Luís Figo/Figo; Rivaldo; Pavel Nedvěd/Nedved; Andriy Shevchenko/Shevchenko; Fabio Cannavaro/Cannavaro; Ruud Gullit/Gullit; George Weah/Weah; Roberto Baggio/Baggio; Lothar Matthäus/Matthaus; Kevin Keegan/Keegan; Gerd Müller; Eusébio; Stanley Matthews; Alfredo Di Stéfano/Di Stefano; Ousmane Dembélé/Dembele; Aitana Bonmatí/Bonmati; Alexia Putellas/Putellas
+X Hristo Stoichkov/Stoichkov; Jean-Pierre Papin/Papin; Igor Belanov/Belanov; Oleg Blokhin/Blokhin; Allan Simonsen/Simonsen; Karl-Heinz Rummenigge/Rummenigge; Denis Law; Flórián Albert; Lev Yashin/Yashin; Raymond Kopa/Kopa; Matthias Sammer/Sammer; Omar Sívori/Sivori; Gianni Rivera/Rivera; Ada Hegerberg/Hegerberg; Megan Rapinoe/Rapinoe
+B Josef Masopust/Masopust; Luis Suárez
+
+@ tennis | Sport | Name a Grand Slam singles champion (any era).
+R Roger Federer/Federer; Serena Williams/Serena; Rafael Nadal/Nadal/Rafa; Novak Djokovic/Djokovic
+S Andy Murray/Murray
+W Venus Williams/Venus; Pete Sampras/Sampras; Andre Agassi/Agassi; Steffi Graf/Graf; Martina Navratilova/Navratilova; Björn Borg/Borg; John McEnroe/McEnroe; Maria Sharapova/Sharapova; Carlos Alcaraz/Alcaraz; Jannik Sinner/Sinner; Emma Raducanu/Raducanu; Boris Becker/Becker
+A Chris Evert/Evert; Billie Jean King; Monica Seles/Seles; Jimmy Connors/Connors; Ivan Lendl/Lendl; Stefan Edberg/Edberg; Iga Świątek/Swiatek; Naomi Osaka/Osaka; Aryna Sabalenka/Sabalenka; Coco Gauff/Gauff; Justine Henin/Henin; Kim Clijsters/Clijsters; Martina Hingis/Hingis; Lleyton Hewitt/Hewitt; Stan Wawrinka/Wawrinka; Rod Laver/Laver; Goran Ivanišević/Ivanisevic; Virginia Wade; Fred Perry; Arthur Ashe/Ashe; Juan Martín del Potro/Del Potro; Marat Safin/Safin; Andy Roddick/Roddick; Li Na; Daniil Medvedev/Medvedev
+X Ken Rosewall/Rosewall; Roy Emerson; Margaret Court; Evonne Goolagong/Goolagong; Mats Wilander/Wilander; Gustavo Kuerten/Guga/Kuerten; Thomas Muster/Muster; Pat Cash; Michael Chang; Yevgeny Kafelnikov/Kafelnikov; Marin Čilić/Cilic; Dominic Thiem/Thiem; Ashleigh Barty/Ash Barty/Barty; Petra Kvitová/Kvitova; Jelena Ostapenko/Ostapenko; Marion Bartoli/Bartoli; Francesca Schiavone/Schiavone; Gastón Gaudio/Gaudio; Suzanne Lenglen/Lenglen; Maureen Connolly; Althea Gibson
+B Thomas Johansson; Iva Majoli/Majoli
+
+@ oscar | Film & TV | Name a film that won the Oscar for Best Picture.
+R Titanic; The Godfather; Forrest Gump; Gladiator
+S Parasite
+W Schindler's List; The Lord of the Rings: The Return of the King/Return of the King; Casablanca; Gone with the Wind; Braveheart; The Silence of the Lambs/Silence of the Lambs; Oppenheimer; Rocky; Slumdog Millionaire; The Departed; Chicago; American Beauty; Everything Everywhere All at Once; One Flew Over the Cuckoo's Nest; Ben-Hur; The Sound of Music/Sound of Music
+A The King's Speech/King's Speech; Argo; 12 Years a Slave/Twelve Years a Slave; Birdman; Spotlight; Moonlight; The Shape of Water/Shape of Water; Green Book; Nomadland; CODA; The Artist; No Country for Old Men; Shakespeare in Love; A Beautiful Mind/Beautiful Mind; Million Dollar Baby; Crash; Dances with Wolves; Unforgiven; Rain Man; Amadeus; Gandhi; Platoon; The English Patient/English Patient; Kramer vs. Kramer; Annie Hall; The Deer Hunter/Deer Hunter; Lawrence of Arabia; West Side Story; My Fair Lady; Out of Africa; Driving Miss Daisy; The Last Emperor/Last Emperor; Anora; The Sting; Midnight Cowboy; The French Connection/French Connection; The Apartment; Chariots of Fire; Terms of Endearment; The Godfather Part II/Godfather Part 2/Godfather 2
+X Wings; All Quiet on the Western Front; It Happened One Night; Rebecca; How Green Was My Valley; Mrs. Miniver; The Lost Weekend; All About Eve; From Here to Eternity; On the Waterfront; Marty; The Bridge on the River Kwai/Bridge on the River Kwai; Gigi; Tom Jones; Oliver!; In the Heat of the Night; Patton; The Best Years of Our Lives; An American in Paris; Ordinary People; Around the World in 80 Days/Around the World in Eighty Days; Mutiny on the Bounty; Going My Way
+B Cimarron; Cavalcade
+
+@ disney | Film & TV | Name a Walt Disney Animation Studios feature film.
+R The Lion King; Frozen; Snow White and the Seven Dwarfs/Snow White; Cinderella
+S Fantasia
+W Aladdin; Beauty and the Beast; The Little Mermaid; Bambi; Dumbo; Pinocchio; Peter Pan; Sleeping Beauty; The Jungle Book; Mulan; Moana; Tangled; Zootopia/Zootropolis; Lady and the Tramp; One Hundred and One Dalmatians/101 Dalmatians; Encanto; Pocahontas; Tarzan; Frozen II/Frozen 2; Hercules
+A Lilo & Stitch; The Aristocats; Robin Hood; The Hunchback of Notre Dame/Hunchback of Notre Dame; Wreck-It Ralph; Big Hero 6; Bolt; The Princess and the Frog/Princess and the Frog; Raya and the Last Dragon/Raya; Wish; Moana 2; Zootopia 2/Zootropolis 2; Ralph Breaks the Internet; The Emperor's New Groove/Emperor's New Groove; Atlantis: The Lost Empire/Atlantis; Treasure Planet; The Fox and the Hound/Fox and the Hound; The Sword in the Stone/Sword in the Stone; Oliver & Company; The Rescuers; Brother Bear; Meet the Robinsons; Chicken Little; Strange World; The Many Adventures of Winnie the Pooh/Winnie the Pooh
+X The Great Mouse Detective/Great Mouse Detective; The Black Cauldron/Black Cauldron; The Rescuers Down Under/Rescuers Down Under; Home on the Range; Dinosaur; Fantasia 2000; Alice in Wonderland; The Three Caballeros/Three Caballeros; Fun and Fancy Free; Melody Time; The Adventures of Ichabod and Mr. Toad/Ichabod and Mr Toad
+B Saludos Amigos; Make Mine Music
+
+@ mcu | Film & TV | Name a Marvel Cinematic Universe film.
+R Iron Man; The Avengers/Avengers; Black Panther; Avengers: Endgame/Endgame
+S The Incredible Hulk/Incredible Hulk
+W Captain America: The First Avenger/The First Avenger; Thor; Guardians of the Galaxy; Avengers: Infinity War/Infinity War; Spider-Man: Homecoming/Homecoming; Captain America: Civil War/Civil War; Doctor Strange; Thor: Ragnarok/Ragnarok; Captain Marvel; Spider-Man: No Way Home/No Way Home; Iron Man 3; Iron Man 2; Ant-Man; Deadpool & Wolverine
+A Captain America: The Winter Soldier/Winter Soldier; Avengers: Age of Ultron/Age of Ultron; Thor: The Dark World/The Dark World; Guardians of the Galaxy Vol. 2/Guardians of the Galaxy 2; Ant-Man and the Wasp; Spider-Man: Far From Home/Far From Home; Black Widow; Shang-Chi and the Legend of the Ten Rings/Shang-Chi; Doctor Strange in the Multiverse of Madness/Multiverse of Madness; Thor: Love and Thunder/Love and Thunder; Black Panther: Wakanda Forever/Wakanda Forever; Guardians of the Galaxy Vol. 3/Guardians of the Galaxy 3; The Marvels; Thunderbolts; The Fantastic Four: First Steps/Fantastic Four/First Steps; Captain America: Brave New World/Brave New World
+X Eternals; Spider-Man: Brand New Day/Brand New Day
+B Ant-Man and the Wasp: Quantumania/Quantumania
+
+@ starwars | Film & TV | Name a character from the Star Wars films.
+R Luke Skywalker/Luke; Darth Vader/Vader; Han Solo/Han; Princess Leia/Leia/Leia Organa; Yoda
+S Jar Jar Binks/Jar Jar
+W Chewbacca/Chewie; Obi-Wan Kenobi/Obi-Wan/Ben Kenobi; R2-D2; C-3PO; Darth Maul/Maul; Palpatine/Emperor Palpatine/Darth Sidious/The Emperor; Boba Fett; Anakin Skywalker/Anakin; Rey; Kylo Ren/Ben Solo; BB-8; Lando Calrissian/Lando; Padmé Amidala/Padme/Amidala; Qui-Gon Jinn/Qui-Gon
+A Jabba the Hutt/Jabba; Mace Windu/Windu; Count Dooku/Dooku; Finn; Poe Dameron/Poe; Grand Moff Tarkin/Tarkin; Admiral Ackbar/Ackbar; Wedge Antilles/Wedge; General Grievous/Grievous; Jango Fett; Snoke; Rose Tico; Jyn Erso; Cassian Andor/Andor; K-2SO; Wicket; Greedo; Captain Phasma/Phasma; Mon Mothma; Saw Gerrera; Orson Krennic/Krennic; Watto; Bossk; Nien Nunb
+X Biggs Darklighter/Biggs; Admiral Piett/Piett; General Veers/Veers; Salacious Crumb; Max Rebo; Sy Snootles; Bib Fortuna; Dexter Jettster; Zam Wesell; Plo Koon; Ki-Adi-Mundi; Shmi Skywalker/Shmi; Beru Lars/Aunt Beru; Owen Lars/Uncle Owen; Lobot; Maz Kanata; Chirrut Îmwe/Chirrut; Baze Malbus; Bodhi Rook; Enfys Nest; Qi'ra; Tobias Beckett/Beckett; Nute Gunray
+B Jek Porkins/Porkins; Yaddle
+
+@ wildcat | Animals | Name a species or subspecies of wild cat.
+R Lion; Tiger; Cheetah; Leopard
+S Black panther/Panther
+W Jaguar; Lynx; Puma/Cougar/Mountain lion; Snow leopard; Bobcat; Ocelot; Wildcat/Scottish wildcat/European wildcat; Clouded leopard
+A Caracal; Serval; Eurasian lynx; Iberian lynx; Canada lynx; Margay; Jaguarundi; Sand cat; Pallas's cat/Manul; Fishing cat; Black-footed cat; Amur leopard; Bengal tiger; Siberian tiger/Amur tiger; Sumatran tiger; African wildcat
+X Kodkod/Guiña; Oncilla; Andean mountain cat/Andean cat; Flat-headed cat; Marbled cat; Asian golden cat; African golden cat; Geoffroy's cat; Pampas cat/Colocolo; Leopard cat; Jungle cat; Sunda clouded leopard; Chinese mountain cat
+B Bornean bay cat/Bay cat; Rusty-spotted cat
+
+@ shark | Animals | Name a type of shark.
+R Great white shark/Great white; Hammerhead shark/Hammerhead; Whale shark
+S Megalodon
+W Tiger shark; Bull shark; Mako shark/Mako/Shortfin mako; Nurse shark; Basking shark; Blue shark; Reef shark/Blacktip reef shark/Whitetip reef shark; Thresher shark/Thresher; Lemon shark
+A Goblin shark; Greenland shark; Oceanic whitetip; Bamboo shark; Leopard shark; Dogfish/Spiny dogfish/Spurdog; Wobbegong; Angel shark; Zebra shark; Sand tiger shark/Sand tiger/Grey nurse shark; Megamouth shark/Megamouth; Porbeagle; Cookiecutter shark/Cookiecutter; Frilled shark; Silky shark; Port Jackson shark; Blacktip shark; Sixgill shark/Bluntnose sixgill; Epaulette shark
+X Lanternshark/Lantern shark; Bramble shark; Sleeper shark; Sawshark/Saw shark; Horn shark; Catshark; Swell shark; Houndshark; Gummy shark; Tope; Sharpnose shark; Spinner shark; Dusky shark; Galapagos shark; Pyjama shark/Pajama shark; Smooth-hound
+B Ninja lanternshark; Pocket shark
+
+@ insect | Animals | Name an insect.
+R Bee/Honeybee; Ant; Butterfly; Fly/Housefly
+S Stick insect
+W Wasp; Mosquito; Beetle; Moth; Grasshopper; Ladybird/Ladybug; Dragonfly; Cockroach/Roach; Cricket; Flea; Termite; Caterpillar; Bumblebee; Hornet; Praying mantis/Mantis
+A Earwig; Locust; Firefly/Lightning bug; Damselfly; Cicada; Aphid/Greenfly; Silverfish; Louse/Lice/Head louse; Weevil; Stag beetle; Dung beetle; Mayfly; Midge; Gnat; Horsefly; Bluebottle; Crane fly/Daddy long legs; Water boatman; Lacewing; Bed bug/Bedbug; Glow-worm; Scarab beetle/Scarab; Hercules beetle; Monarch butterfly/Monarch
+X Leafhopper; Froghopper/Spittlebug; Caddisfly; Stonefly; Scorpionfly; Thrips; Katydid; Weta; Antlion; Mealybug; Scale insect; Assassin bug; Shield bug/Stink bug; Pond skater/Water strider; Sawfly; Ichneumon wasp/Ichneumon; Tsetse fly/Tsetse; Botfly; Silkworm; Leafcutter ant; Bullet ant
+B Snakefly; Webspinner
+
+@ catbreed | Animals | Name a breed of domestic cat.
+R Persian; Siamese; Maine Coon
+S Sphynx/Sphinx
+W Bengal; Ragdoll; British Shorthair; Russian Blue; Scottish Fold; Abyssinian; Burmese; Norwegian Forest Cat/Norwegian Forest; Birman; Exotic Shorthair
+A Devon Rex; Cornish Rex; Siberian; Tonkinese; Manx; Himalayan; Oriental Shorthair/Oriental; Savannah; Turkish Angora; Turkish Van; Egyptian Mau; Burmilla; Ocicat; Somali; Balinese; Chartreux; American Shorthair; Bombay; Selkirk Rex; Munchkin; Ragamuffin; Japanese Bobtail; Korat; Havana Brown
+X LaPerm; Singapura; Toyger; Snowshoe; Nebelung; Pixie-bob; Lykoi/Werewolf cat; Cymric; American Curl; Peterbald; Donskoy/Don Sphynx; Khao Manee; Sokoke; American Wirehair; Chausie; Kurilian Bobtail; Australian Mist
+B Serengeti; Minuet/Napoleon
+
+@ vegetable | Food & Drink | Name a vegetable.
+R Carrot; Potato; Broccoli; Pea/Peas; Onion
+S Tomato
+W Cabbage; Cauliflower; Lettuce; Cucumber; Spinach; Sweetcorn/Corn/Maize; Bell pepper/Pepper/Capsicum; Mushroom; Celery; Leek; Sweet potato; Courgette/Zucchini; Aubergine/Eggplant; Brussels sprout/Brussels sprouts/Sprouts; Green bean/Green beans/Runner bean/French bean; Garlic; Beetroot/Beet; Parsnip; Asparagus; Kale; Turnip; Radish
+A Artichoke; Swede/Rutabaga; Pak choi/Bok choy; Butternut squash/Squash; Pumpkin; Fennel; Okra/Lady's finger; Celeriac; Shallot; Spring onion/Scallion/Green onion; Watercress; Rocket/Arugula; Swiss chard/Chard; Kohlrabi; Endive; Chicory; Mangetout/Snow pea; Broad bean/Fava bean; Edamame; Yam; Cassava/Manioc/Yuca; Jerusalem artichoke; Radicchio; Marrow
+X Salsify; Romanesco; Samphire; Daikon/Mooli; Jicama; Celtuce; Taro; Lotus root; Burdock; Gai lan/Kai lan/Chinese broccoli; Mizuna; Cardoon; Sea kale; Skirret; Fiddleheads/Fiddlehead; Water chestnut; Bamboo shoots/Bamboo shoot; Tomatillo; Chayote/Christophene
+B Oca; Mashua
+
+@ bread | Food & Drink | Name a type of bread.
+R Baguette; Sourdough; Bagel; Croissant
+S Focaccia
+W Ciabatta; Naan/Nan; Pitta/Pita; Brioche; Rye bread/Rye; Wholemeal/Whole wheat; Tortilla; Crumpet; English muffin/Muffin; Soda bread; Cornbread; Pretzel; Garlic bread; Bloomer; Cob; Roti; Chapati/Chapatti
+A Challah; Pumpernickel; Brown bread; Paratha; Bao/Bao bun; Flatbread; Banana bread; Fougasse; Teacake; Bap; Barm cake/Barm; Panettone; Stollen; Matzo/Matzah; Lavash; Injera; Arepa; Pandoro; Spelt bread/Spelt; Milk bread/Shokupan; Bannock; Puri/Poori; Kulcha
+X Pain de mie; Pain d'épi; Pane carasau; Bammy; Bolani; Knäckebröd/Crispbread; Simit; Pogača/Pogacha; Bazlama; Pão de queijo/Pao de queijo; Laffa; Barbari; Kesra; Piadina; Tiger bread/Dutch crunch; Staffordshire oatcake/Oatcake; Stottie cake/Stottie; Cottage loaf
+B Sangak; Lefse
+
+@ asia | Geography | Name a country in Asia.
+R China; Japan; India; Thailand
+S Russia
+W South Korea/Korea; North Korea; Vietnam; Indonesia; Philippines; Malaysia; Singapore; Pakistan; Bangladesh; Sri Lanka; Nepal; Afghanistan; Iran; Iraq; Saudi Arabia; Israel; Turkey/Türkiye; United Arab Emirates/UAE; Mongolia; Cambodia; Taiwan
+A Myanmar/Burma; Laos; Bhutan; Kazakhstan; Uzbekistan; Syria; Jordan; Lebanon; Qatar; Kuwait; Oman; Yemen; Bahrain; Maldives; Brunei
+X Kyrgyzstan; Tajikistan; Georgia; Armenia; Azerbaijan; Cyprus; Palestine
+B Timor-Leste/East Timor; Turkmenistan
+
+@ river | Geography | Name a river (real or mythical).
+R Nile; Amazon; Thames; Mississippi
+S Styx
+W Danube; Rhine; Yangtze; Ganges; Mekong; Volga; Missouri; Colorado; Hudson; Tiber; Loire; Seine; Shannon; Severn; Euphrates; Tigris; Jordan; Zambezi; Congo; Yellow River/Huang He; Rio Grande; St. Lawrence/Saint Lawrence; Indus; Mersey; Tyne; Clyde; Liffey; Ohio
+A Niger; Orinoco; Paraná; Murray; Darling; Elbe; Oder; Rhône; Po; Ebro; Tagus/Tejo; Douro; Dnieper; Don; Ob; Yenisei; Lena; Amur; Irrawaddy; Brahmaputra; Limpopo; Orange; Yukon; Mackenzie; Columbia; Snake; Potomac; Avon; Trent; Wye; Tay; Spey; Dee; Ouse; Vltava; Arno; Neva; Rubicon; Salween; Okavango; Lethe
+X Ubangi; Kasai; Syr Darya; Amu Darya/Oxus; Helmand; Fly; Purus; Madeira; Xingu; Tocantins; São Francisco; Magdalena; Usumacinta; Dniester; Pechora; Kama; Moselle; Main; Inn; Drava; Sava; Tisza; Guadalquivir; Garonne; Dordogne; Scheldt; Meuse
+B Sepik; Kolyma
+
+@ islandnation | Geography | Name a country made up entirely of islands.
+R Japan; Iceland; New Zealand; Madagascar
+S Australia
+W Ireland; United Kingdom/UK/Great Britain/Britain; Philippines; Indonesia; Sri Lanka; Cuba; Jamaica; Malta; Cyprus; Singapore; Maldives; Fiji; Bahamas; Taiwan; Mauritius; Seychelles
+A Barbados; Trinidad and Tobago/Trinidad; Bahrain; Brunei; Papua New Guinea/PNG; Samoa; Tonga; Cape Verde/Cabo Verde; Comoros; Grenada; Saint Lucia/St Lucia; Antigua and Barbuda/Antigua; Dominica; Dominican Republic; Haiti; Timor-Leste/East Timor; Vanuatu; Solomon Islands
+X Kiribati; Palau; Marshall Islands; Micronesia/Federated States of Micronesia; Saint Kitts and Nevis/St Kitts and Nevis; Saint Vincent and the Grenadines/St Vincent; São Tomé and Príncipe/Sao Tome
+B Tuvalu; Nauru
+
+@ mountain | Geography | Name a mountain (a single peak, anywhere on Earth).
+R Mount Everest/Everest; Kilimanjaro/Mount Kilimanjaro; Ben Nevis; K2
+S Mount Olympus/Olympus
+W Mont Blanc; Matterhorn; Mount Fuji/Fuji; Snowdon/Yr Wyddfa; Scafell Pike; Mount Vesuvius/Vesuvius; Mount Etna/Etna; Denali/Mount McKinley; Aconcagua; Table Mountain; Mount Rushmore; Eiger; Mount Kenya; Mount Sinai
+A Kangchenjunga; Lhotse; Makalu; Annapurna; Nanga Parbat; Mount Elbrus/Elbrus; Mount Kosciuszko/Kosciuszko; Mount Rainier/Rainier; Mount St. Helens/St Helens; Mont Ventoux/Ventoux; Mount Ararat/Ararat; Jungfrau; Zugspitze; Cotopaxi; Chimborazo; Mauna Kea; Mauna Loa; Aoraki/Mount Cook; Pikes Peak; Half Dome; Croagh Patrick; Slieve Donard; Ben Macdui; Krakatoa; Popocatépetl
+X Cho Oyu; Dhaulagiri; Manaslu; Gasherbrum; Broad Peak; Shishapangma; Mount Vinson/Vinson/Vinson Massif; Puncak Jaya/Carstensz Pyramid; Mount Logan; Ojos del Salado; Huascarán; Mount Kinabalu/Kinabalu; Tryfan; Schiehallion; Ama Dablam; Mount Erebus/Erebus; Pico de Orizaba/Citlaltépetl; Triglav; Musala; Mount Athos; Mount Teide/Teide; Nanda Devi
+B Kirkjufell; Gangkhar Puensum

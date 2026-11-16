@@ -1,0 +1,9 @@
+[
+  { "id": "flightdeck", "name": "Flight Deck", "blurb": "Callsigns, cockpits, clouds and the people who flew first.", "prompts": ["nato", "airline", "planepart", "cloud", "aviator", "aircraft", "aircraftmaker"] },
+  { "id": "matchday", "name": "Matchday", "blurb": "Clubs, champions and the trophy cabinet.", "prompts": ["olympic", "epl", "f1", "nfl", "nba", "ballondor", "tennis"] },
+  { "id": "silverscreen", "name": "Silver Screen", "blurb": "Studios, spies, galaxies and gold statues.", "prompts": ["pixar", "bond", "oscar", "disney", "mcu", "starwars", "shakespeare"] },
+  { "id": "wildthings", "name": "Wild Things", "blurb": "Fur, feathers, fins and the long-extinct.", "prompts": ["dog", "dinosaur", "bird", "wildcat", "shark", "insect", "catbreed"] },
+  { "id": "galley", "name": "The Galley", "blurb": "Everything the crew mess has ever served.", "prompts": ["cheese", "pasta", "fruit", "spice", "cocktail", "vegetable", "bread"] },
+  { "id": "atlas", "name": "Atlas", "blurb": "Countries, capitals, peaks and rivers.", "prompts": ["africa", "eucapital", "usstate", "asia", "river", "islandnation", "mountain"] },
+  { "id": "nightschool", "name": "Night School", "blurb": "Elements, bones, stars, stones and gods.", "prompts": ["element", "bone", "solar", "constellation", "gemstone", "greekgod", "instrument"] }
+]

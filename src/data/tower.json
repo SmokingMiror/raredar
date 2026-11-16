@@ -1,0 +1,78 @@
+{
+  "stall": [
+    "Tower: we've lost you on radar. Clock ran dry.",
+    "Engine cough detected. Fuel timer expired.",
+    "Out of time, pilot. The runway waits for no one.",
+    "Negative. That window has closed.",
+    "Tower logged that as a long, thoughtful silence.",
+    "Dead air on the frequency. Bold strategy.",
+    "Clearance expired. Please resubmit in triplicate.",
+    "Your jet just sighed audibly."
+  ],
+  "rookie": [
+    "Tower to pilot: so did everyone else.",
+    "Copy that. And copy, and copy, and copy.",
+    "We had that one on the board before you keyed the mic.",
+    "Textbook. Literally page one.",
+    "Readback correct. Also extremely predictable.",
+    "Half the squadron said the same thing.",
+    "Roger. Proceeding at a brisk walking pace.",
+    "Safe choice. The jet barely noticed."
+  ],
+  "showboat": [
+    "Tower is not as impressed as you are.",
+    "Nice try. We've seen that trick before.",
+    "Very clever. So were four thousand other pilots.",
+    "You flew that one past the tower. We waved politely.",
+    "Points for style. Not many, though.",
+    "Ah, the pub-quiz pick. Noted.",
+    "Smooth delivery, average cargo.",
+    "Tower rates that a confident 'mm'."
+  ],
+  "wingman": [
+    "Solid copy. Keep it coming.",
+    "Steady answer, steady thrust.",
+    "Good readback, pilot. Speed building.",
+    "Respectable. Your instructor nods once.",
+    "Nothing flashy, nothing wrong.",
+    "Tower approves. Mildly.",
+    "That'll do. Engines warming nicely.",
+    "Reliable, like a good wingman."
+  ],
+  "ace": [
+    "Now we're flying.",
+    "Tower sat up in its chair for that one.",
+    "Off most people's charts. Nice work.",
+    "Strong burn, pilot. Very strong.",
+    "That's the stuff. Climbing.",
+    "Ground crew are pointing at you.",
+    "Uncommon and correct. Our favourite combination.",
+    "Radar shows you pulling away from the pack."
+  ],
+  "stealth": [
+    "We barely saw that coming. Neither did anyone else.",
+    "Tower radar did not detect that answer. Impressive.",
+    "Specialist knowledge detected.",
+    "That one flew under everybody's radar.",
+    "Who taught you that? Asking for the tower.",
+    "Vapour trail confirmed. Show-off.",
+    "Rare air, pilot. Very rare air.",
+    "Our controllers had to look that one up."
+  ],
+  "sonic": [
+    "SONIC BOOM. Windows rattling across the airfield.",
+    "Tower just spilled its coffee.",
+    "That's the gem. You found the gem.",
+    "Afterburner lit. Hold on to something.",
+    "Nobody saw that coming. Literally nobody.",
+    "Mach one and climbing. Outstanding.",
+    "The control tower is giving you a standing ovation.",
+    "Cleared to any altitude you like, pilot."
+  ],
+  "aborted": [
+    "Aborted take-off. Tower suggests the bus.",
+    "You taxied with real conviction. Sky's still there tomorrow.",
+    "Still on the runway. Ground crew brought you snacks.",
+    "Runway tour complete. Altitude remains available."
+  ]
+}

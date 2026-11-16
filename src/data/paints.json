@@ -1,0 +1,10 @@
+[
+  { "id": "arctic", "name": "Arctic", "body": "#d5dde8", "accent": "#3b82c4", "unlockAtFlightHours": 0 },
+  { "id": "dusk", "name": "Dusk", "body": "#cdbcdc", "accent": "#ff7a59", "unlockAtFlightHours": 0 },
+  { "id": "moss", "name": "Moss", "body": "#a9bca3", "accent": "#2f4a2e", "unlockAtFlightHours": 0 },
+  { "id": "ember", "name": "Ember", "body": "#ead0b6", "accent": "#ff4d4d", "unlockAtFlightHours": 300 },
+  { "id": "midnight", "name": "Midnight", "body": "#3a4560", "accent": "#6cff8f", "unlockAtFlightHours": 900 },
+  { "id": "sunburst", "name": "Sunburst", "body": "#ffd166", "accent": "#ef476f", "unlockAtFlightHours": 1800 },
+  { "id": "gold", "name": "Gilded", "body": "#f2e2a0", "accent": "#b8860b", "unlockAtFlightHours": 3000 },
+  { "id": "ghost", "name": "Ghost", "body": "#5a606c", "accent": "#c9d3df", "unlockAtFlightHours": 6000 }
+]
