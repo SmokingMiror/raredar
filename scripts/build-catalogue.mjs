@@ -36,7 +36,7 @@ function section(title, prompts) {
 }
 
 const total = [...daily, ...free].reduce((n, p) => n + p.answers.length, 0);
-let md = `# Mach 7 — answer bank\n\nGenerated from \`data/prompts.txt\` and \`data/free-prompts.txt\`. ${daily.length + free.length} prompts, ${total} accepted answers.\n\n`;
+let md = `# Raredar — answer bank\n\nGenerated from \`data/prompts.txt\` and \`data/free-prompts.txt\`. ${daily.length + free.length} prompts, ${total} accepted answers.\n\n`;
 md += `## What each tier does\n\n| Tier | Points | What the jet does |\n|---|---|---|\n`;
 for (const [, name, pts, fx] of TIERS) md += `| ${name} | ${pts} | ${fx} |\n`;
 md += `| Stall | 0 | Engine sputters, jet wobbles (only when time runs out — wrong answers can be retried) |\n\n`;

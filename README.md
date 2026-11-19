@@ -1,4 +1,4 @@
-# Mach 7
+# Raredar
 
 A daily "rarest answer wins" trivia game with fighter jets. Seven prompts, 25 seconds each — obvious answers barely move your jet down the runway, rare ones light the afterburner and launch you towards the edge of space.
 

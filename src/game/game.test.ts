@@ -99,7 +99,7 @@ describe('streaks and share', () => {
   });
   it('share text is spoiler-free', () => {
     const r = result('2026-11-13', 515);
-    expect(shareText(r)).toBe('Mach 7 Sortie #13 ✈️ 41,500 ft — Wing Commander\n🟩⬛⬜🟦🟪🟨🟧\nhttps://mach7.example');
+    expect(shareText(r)).toBe('Raredar Sortie #13 ✈️ 41,500 ft — Wing Commander\n🟩⬛⬜🟦🟪🟨🟧\nhttps://raredar.io');
     expect(shareText({ ...r, points: 60 })).toContain('Never left the runway — Grounded');
   });
 });

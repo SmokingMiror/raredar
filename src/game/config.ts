@@ -1,9 +1,9 @@
 import type { TierId } from './types';
 
 /** Working title. Change it here and in index.html. */
-export const GAME_NAME = 'Mach 7';
+export const GAME_NAME = 'Raredar';
 export const TAGLINE = 'Rare answers fly higher.';
-export const GAME_URL = 'https://mach7.example';
+export const GAME_URL = 'https://raredar.io';
 
 export const PROMPTS_PER_FLIGHT = 7;
 export const SECONDS_PER_PROMPT = 25;

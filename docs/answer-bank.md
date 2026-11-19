@@ -1,4 +1,4 @@
-# Mach 7 — answer bank
+# Raredar — answer bank
 
 Generated from `data/prompts.txt` and `data/free-prompts.txt`. 251 prompts, 21586 accepted answers.
 

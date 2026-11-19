@@ -2,7 +2,9 @@ import { previousDateKey } from './daily';
 import type { FlightResult, Turn } from './types';
 import { DEFAULT_SETTINGS, type Settings } from '../settings';
 
-const KEY = 'mach7:v1';
+const KEY = 'raredar:v1';
+/** Saves from before the rename are picked up once and carried over. */
+const OLD_KEYS = ['mach7:v1'];
 
 export interface Save {
   history: Record<string, FlightResult>;
@@ -45,7 +47,7 @@ const fresh = (): Save => ({
 
 export function load(): Save {
   try {
-    const raw = localStorage.getItem(KEY);
+    const raw = localStorage.getItem(KEY) ?? OLD_KEYS.map((k) => localStorage.getItem(k)).find(Boolean) ?? null;
     if (!raw) return fresh();
     const parsed = JSON.parse(raw);
     const base = fresh();

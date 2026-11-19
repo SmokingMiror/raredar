@@ -37,8 +37,8 @@
   </g>
   <!-- wordmark -->
   <g transform="translate(70,250) skewX(-10)">
-    <text x="0" y="0" font-family="Avenir Next Condensed, Futura, Helvetica Neue, sans-serif" font-weight="800" font-style="italic" font-size="150" fill="#6cff8f" filter="url(#glow)" opacity="0.7" letter-spacing="6">MACH 7</text>
-    <text x="0" y="0" font-family="Avenir Next Condensed, Futura, Helvetica Neue, sans-serif" font-weight="800" font-style="italic" font-size="150" fill="#ffffff" letter-spacing="6">MACH 7</text>
+    <text x="0" y="0" font-family="Avenir Next Condensed, Futura, Helvetica Neue, sans-serif" font-weight="800" font-style="italic" font-size="138" fill="#6cff8f" filter="url(#glow)" opacity="0.7" letter-spacing="6">RAREDAR</text>
+    <text x="0" y="0" font-family="Avenir Next Condensed, Futura, Helvetica Neue, sans-serif" font-weight="800" font-style="italic" font-size="138" fill="#ffffff" letter-spacing="6">RAREDAR</text>
   </g>
   <text x="76" y="320" font-family="Menlo, monospace" font-size="34" fill="#6cff8f" letter-spacing="4">RARE ANSWERS FLY HIGHER.</text>
   <text x="76" y="372" font-family="Helvetica Neue, sans-serif" font-size="26" fill="#cfd9ea">7 prompts · 25 seconds · how high can you get?</text>

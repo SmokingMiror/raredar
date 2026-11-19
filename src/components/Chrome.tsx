@@ -149,7 +149,7 @@ export function Briefing({ onClose }: { onClose: () => void }) {
   const pages = [
     {
       title: 'Give one answer',
-      body: 'Seven prompts a day, the same for every pilot. Each has many right answers. Type one before the 25-second clock runs out.',
+      body: 'Seven prompts a day, picked at random for you. Each has many right answers. Type one before the 25-second clock runs out.',
       art: (
         <div className="brief-art brief-prompt">
           <span className="eyebrow">Prompt 1/7</span>
