@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { TIERS } from '../game/config';
-import { MAX_POINTS, TAKEOFF_POINTS, ZONES, isAirborne, readout, skyColors, zoneFor } from '../game/flight';
+import { MAX_POINTS, TAKEOFF_POINTS, ZONES, isAirborne, mix, readout, skyColors, zoneFor } from '../game/flight';
 import { mulberry32 } from '../game/daily';
 import type { TierId } from '../game/types';
 import { useReducedMotion } from '../hooks';
@@ -25,6 +25,7 @@ interface Props {
 }
 
 const W = 400;
+const SKY_BANDS = 16;
 const clamp = (v: number, a = 0, b = 1) => Math.max(a, Math.min(b, v));
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 const wrap = (v: number, m: number) => ((v % m) + m) % m;
@@ -157,21 +158,29 @@ export function JetScene({ points, effect, afterburner = false, hud = true, bann
       <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" preserveAspectRatio="none" style={{ transform: shake }}>
         <defs>
           <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor={skyTop} />
-            <stop offset="1" stopColor={skyBottom} />
+            {/* hard colour bands instead of a smooth fade, like a pixel-art sky */}
+            {Array.from({ length: SKY_BANDS }, (_, i) => {
+              const c = mix(skyTop, skyBottom, i / (SKY_BANDS - 1));
+              return [
+                <stop key={`a${i}`} offset={i / SKY_BANDS} stopColor={c} />,
+                <stop key={`b${i}`} offset={(i + 1) / SKY_BANDS} stopColor={c} />,
+              ];
+            })}
           </linearGradient>
           <radialGradient id="sun">
-            <stop offset="0" stopColor="#ffd9a0" stopOpacity="0.95" />
-            <stop offset="1" stopColor="#ff9a5a" stopOpacity="0" />
+            <stop offset="0" stopColor="#ffe3b0" />
+            <stop offset="0.34" stopColor="#ffe3b0" />
+            <stop offset="0.34" stopColor="#ffb870" stopOpacity="0.7" />
+            <stop offset="0.6" stopColor="#ffb870" stopOpacity="0.7" />
+            <stop offset="0.6" stopColor="#ff8a4a" stopOpacity="0.3" />
+            <stop offset="0.85" stopColor="#ff8a4a" stopOpacity="0.3" />
+            <stop offset="0.85" stopColor="#ff8a4a" stopOpacity="0" />
           </radialGradient>
           <radialGradient id="earth" cx="0.5" cy="0" r="0.6">
             <stop offset="0" stopColor="#2f7fd0" />
             <stop offset="0.3" stopColor="#174a86" />
             <stop offset="1" stopColor="#0a1a33" />
           </radialGradient>
-          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="4" />
-          </filter>
           <JetDefs />
         </defs>
 
@@ -189,7 +198,7 @@ export function JetScene({ points, effect, afterburner = false, hud = true, bann
         {/* Earth's curve at the edge of space */}
         {earth > 0 && (
           <g opacity={earth}>
-            <ellipse cx={W / 2} cy={H + 760 - 26 * earth} rx={1100} ry={780} fill="none" stroke="#6fc3ff" strokeWidth={10} filter="url(#glow)" />
+            <ellipse cx={W / 2} cy={H + 760 - 26 * earth} rx={1100} ry={780} fill="none" stroke="#6fc3ff" strokeWidth={8} opacity={0.45} />
             <ellipse cx={W / 2} cy={H + 760 - 26 * earth} rx={1100} ry={780} fill="url(#earth)" stroke="#9fe0ff" strokeWidth={1.2} />
           </g>
         )}

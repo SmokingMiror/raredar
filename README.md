@@ -58,3 +58,5 @@ Built with Vite, React and TypeScript. Sound is synthesised with Web Audio; prog
 ## Credits
 
 Five Free Flight prompts (potatoes, four-letter animals, NBA MVPs, stations, superhero teams) are adapted from the sample bank of [OpenKrillion](https://github.com/VulcanEon/openkrillion.com-service), MIT licence, © 2026 OpenKrillion contributors.
+
+Pixel fonts: [VT323](https://fonts.google.com/specimen/VT323) by Peter Hull (SIL Open Font License, bundled in `public/fonts`) and [Pixelify Sans](https://fonts.google.com/specimen/Pixelify+Sans) (SIL Open Font License, via Google Fonts).

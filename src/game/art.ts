@@ -7,6 +7,6 @@ const ZONE_INDEX: Record<ZoneId, number> = { taxiway: 1, roll: 2, climb: 3, stra
 
 export const tierImg = (t: TierId) => (TIER_INDEX[t] ? `/img/tier-${TIER_INDEX[t]}.png` : null);
 export const rankImg = (level: number) => `/img/rank-${level + 1}.png`;
-export const zoneImg = (z: ZoneId) => ({ tall: `/img/zone-${ZONE_INDEX[z]}.jpg`, wide: `/img/zone-${ZONE_INDEX[z]}-wide.jpg` });
+export const zoneImg = (z: ZoneId) => ({ tall: `/img/zone-${ZONE_INDEX[z]}.png`, wide: `/img/zone-${ZONE_INDEX[z]}-wide.png` });
 export const TOWER_IMG = '/img/tower.png';
 export const LOGO_IMG = '/img/logo.png';

@@ -108,11 +108,13 @@ const SKY: [number, string, string][] = [
   [700, '#05060d', '#0f1d44'],
 ];
 
+/** Accepts #rrggbb or rgb(r,g,b). */
 function hexToRgb(h: string) {
+  if (h.startsWith('rgb')) return h.slice(h.indexOf('(') + 1, -1).split(',').map(Number);
   const n = parseInt(h.slice(1), 16);
   return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
 }
-function mix(a: string, b: string, t: number) {
+export function mix(a: string, b: string, t: number) {
   const A = hexToRgb(a);
   const B = hexToRgb(b);
   return `rgb(${A.map((v, i) => Math.round(v + (B[i] - v) * t)).join(',')})`;
