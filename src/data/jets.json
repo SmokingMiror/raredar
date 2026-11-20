@@ -1,8 +1,8 @@
 [
-  {"id":  "swift", "name":  "Viper", "blurb":  "Light single-engine dogfighter. Chin intake, bubble canopy, all eyes.", "image":  "/img/jet-1.png", "unlockAtFlightHours":  0},
-  {"id":  "kestrel", "name":  "Mantis", "blurb":  "Carrier strike fighter with big wing roots and twin canted fins.", "image":  "/img/jet-2.png", "unlockAtFlightHours":  500},
-  {"id":  "stingray", "name":  "Talon", "blurb":  "Heavy twin-engine air-superiority fighter. Huge wing, huge thrust.", "image":  "/img/jet-3.png", "unlockAtFlightHours":  1200},
-  {"id":  "nightjar", "name":  "Tempest", "blurb":  "Canard-delta multirole. Foreplanes up front, agile at any height.", "image":  "/img/jet-4.png", "unlockAtFlightHours":  2500},
-  {"id":  "peregrine", "name":  "Spectre", "blurb":  "Single-engine stealth fighter. Faceted, quiet, hard to find.", "image":  "/img/jet-5.png", "unlockAtFlightHours":  4500},
-  {"id":  "aurora", "name":  "Wraith", "blurb":  "Twin-engine stealth air-dominance jet with vectoring nozzles.", "image":  "/img/jet-6.png", "unlockAtFlightHours":  7000}
+  {"id":  "swift", "name":  "Viper", "blurb":  "Light single-engine dogfighter. Chin intake, bubble canopy, all eyes.", "image":  "/img/sprite-1.png", "unlockAtFlightHours":  0},
+  {"id":  "kestrel", "name":  "Mantis", "blurb":  "Carrier strike fighter with big wing roots and twin canted fins.", "image":  "/img/sprite-2.png", "unlockAtFlightHours":  500},
+  {"id":  "stingray", "name":  "Talon", "blurb":  "Heavy twin-engine air-superiority fighter. Huge wing, huge thrust.", "image":  "/img/sprite-3.png", "unlockAtFlightHours":  1200},
+  {"id":  "nightjar", "name":  "Tempest", "blurb":  "Canard-delta multirole. Foreplanes up front, agile at any height.", "image":  "/img/sprite-4.png", "unlockAtFlightHours":  2500},
+  {"id":  "peregrine", "name":  "Spectre", "blurb":  "Single-engine stealth fighter. Faceted, quiet, hard to find.", "image":  "/img/sprite-5.png", "unlockAtFlightHours":  4500},
+  {"id":  "aurora", "name":  "Wraith", "blurb":  "Twin-engine stealth air-dominance jet with vectoring nozzles.", "image":  "/img/sprite-6.png", "unlockAtFlightHours":  7000}
 ]

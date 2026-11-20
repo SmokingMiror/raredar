@@ -319,7 +319,7 @@ body { background-color: var(--bg); }
 .tt-medal { width: 28px; padding-right: 0 !important; }
 .rank-patch { object-fit: contain; flex: none; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5)); }
 .tower-icon { vertical-align: middle; margin-right: 4px; object-fit: contain; }
-.jet-art { width: 100%; max-width: 260px; height: auto; object-fit: contain; }
+.jet-art { width: 100%; max-width: 260px; height: auto; object-fit: contain; image-rendering: pixelated; }
 .jet-art-locked { filter: grayscale(1) brightness(0.35); }
 
 /* ---- laptop / desktop ----------------------------------------------- */

@@ -15,7 +15,7 @@ npm run dev
 - **Free Flight** — Classic (7 random prompts) or Endurance (until 3 stalls), from a 256-prompt bank
 - **Flight Log** — replay past sorties
 - **Mission Packs** — 7 themed packs
-- **Hangar** — 6 fighter jets (realistic F-16, F/A-18, F-15, Typhoon, F-35 and F-22 styles) and 8 paint schemes, unlocked with flight hours
+- **Hangar** — 6 pixel-art fighter jets (F-16, F/A-18, F-15, Typhoon, F-35 and F-22 styles) and 8 paint schemes, unlocked with flight hours
 
 ## Scoring
 
