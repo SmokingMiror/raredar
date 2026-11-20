@@ -12,10 +12,10 @@ npm run dev
 ## Modes
 
 - **Daily Sortie** — 7 random prompts a day, one flight, streaks and medals
-- **Free Flight** — Classic (7 random prompts) or Endurance (until 3 stalls), from a 251-prompt bank
+- **Free Flight** — Classic (7 random prompts) or Endurance (until 3 stalls), from a 256-prompt bank
 - **Flight Log** — replay past sorties
 - **Mission Packs** — 7 themed packs
-- **Hangar** — 6 jets and 8 paint jobs, unlocked with flight hours
+- **Hangar** — 6 fighter jets (realistic F-16, F/A-18, F-15, Typhoon, F-35 and F-22 styles) and 8 paint schemes, unlocked with flight hours
 
 ## Scoring
 
@@ -34,7 +34,7 @@ The first 100 points are the runway; every point after that is 100 ft of altitud
 ## Prompt banks
 
 - `data/prompts.txt` — daily bank (51 prompts)
-- `data/free-prompts.txt` — Free Flight bank (200 prompts)
+- `data/free-prompts.txt` — Free Flight bank (205 prompts)
 - `docs/answer-bank.md` — readable catalogue of every prompt and answer by tier
 
 After editing a bank:
@@ -54,3 +54,7 @@ npm run prompts && npm run catalogue
 | `npm run catalogue` | Regenerate `docs/answer-bank.md` |
 
 Built with Vite, React and TypeScript. Sound is synthesised with Web Audio; progress is stored in the browser.
+
+## Credits
+
+Five Free Flight prompts (potatoes, four-letter animals, NBA MVPs, stations, superhero teams) are adapted from the sample bank of [OpenKrillion](https://github.com/VulcanEon/openkrillion.com-service), MIT licence, © 2026 OpenKrillion contributors.

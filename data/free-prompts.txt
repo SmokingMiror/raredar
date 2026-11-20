@@ -1624,3 +1624,46 @@ W Motorola; Sony/Sony Ericsson; LG; HTC; BlackBerry; OnePlus; Xiaomi; Oppo; Vivo
 A Ericsson; Siemens; Sagem; Sharp; Panasonic; NEC; Kyocera; Palm; Meizu; Tecno; Infinix; Itel; Poco; Redmi; iQOO; Micromax; Lava; Karbonn; Gionee; TCL; BLU; Cat/Caterpillar; Light Phone; Punkt; Vertu; Essential; Microsoft Lumia/Lumia; Nexus; Handspring; Danger/Sidekick; Psion; Philips; Benefon
 X Orange SPV; Trium; INQ; Pantech; Sanyo; Casio; Haier; Bird; Amoi; Mitac; XDA/O2 XDA; Qtek; i-mate
 B Hagenuk; Sendo
+
+# ============================== FROM THE OPENKRILLION SAMPLE BANK (MIT) ==============================
+# Prompt ideas from the MIT-licensed OpenKrillion sample bank, expanded into full answer lists.
+
+@ potatoes | Food & Drink | Name a way to prepare potatoes.
+R Mashed potatoes/Mashed/Mash; French fries/Fries/Chips; Baked potato/Baked/Jacket potato
+S Crisps/Potato chips
+W Roast potatoes/Roasted potatoes/Roast; Boiled potatoes/Boiled; Hash browns/Hash brown; Wedges/Potato wedges; Potato salad; Sautéed potatoes/Sauteed potatoes/Sauté; Scalloped potatoes; Tater tots; Twice-baked potatoes/Twice baked; Home fries
+A Gnocchi; Rösti/Rosti; Dauphinoise/Gratin dauphinois/Potatoes au gratin/Gratin; Hasselback potatoes/Hasselback; Latkes/Latke/Potato pancakes; Croquettes/Potato croquettes; Duchess potatoes; Smashed potatoes; Bubble and squeak; Colcannon; Patatas bravas; Boulangère potatoes/Boulangere potatoes; Potato skins; Lyonnaise potatoes; Champ
+X Pommes Anna/Potatoes Anna; Boxty; Aloo gobi; Spanish omelette/Tortilla española/Tortilla; Pierogi; Fondant potatoes; Rumbledethumps; Pommes dauphine; Stovies
+B Aligot; Pommes soufflées/Pommes souffle; Chuño/Chuno
+
+@ fourletteranimal | Animals | Name an animal whose name is exactly four letters long.
+R Lion; Bear; Frog; Duck
+S Dodo
+W Wolf; Deer; Goat; Lamb; Seal; Swan; Crab; Toad; Moth; Mole; Hare; Kiwi; Puma; Orca; Crow; Dove; Worm; Mule; Bull
+A Ibex; Lynx; Newt; Wasp; Gnat; Mink; Vole; Kudu; Lark; Wren; Hawk; Kite; Rook; Ibis; Tuna; Carp; Pike; Clam; Slug; Flea; Tick; Gull; Coot; Teal
+X Tahr; Oryx; Zebu; Anoa; Pika; Titi; Tern; Kaka; Smew; Weka; Shad; Dace; Rhea; Gaur; Myna
+B Mara; Saki; Kagu; Nene; Huia
+
+@ nbamvp | Sport | Name someone who has won the NBA regular-season MVP award.
+R Michael Jordan/Jordan; LeBron James/LeBron; Stephen Curry/Steph Curry/Curry; Kobe Bryant/Kobe
+S Shaquille O'Neal/Shaq
+W Magic Johnson/Magic; Larry Bird; Kareem Abdul-Jabbar/Kareem; Kevin Durant/Durant; Giannis Antetokounmpo/Giannis; Tim Duncan/Duncan; Nikola Jokić/Jokic; Wilt Chamberlain/Wilt; Bill Russell; Allen Iverson/Iverson; Steve Nash/Nash; Derrick Rose; James Harden/Harden; Russell Westbrook/Westbrook
+A Dirk Nowitzki/Dirk/Nowitzki; Kevin Garnett/Garnett; Karl Malone; Hakeem Olajuwon/Hakeem/Olajuwon; Charles Barkley/Barkley; David Robinson; Moses Malone; Oscar Robertson; Joel Embiid/Embiid; Shai Gilgeous-Alexander/SGA; Julius Erving/Dr J
+X Bill Walton/Walton; Bob McAdoo/McAdoo; Wes Unseld/Unseld; Dave Cowens/Cowens; Willis Reed
+B Bob Pettit/Pettit; Bob Cousy/Cousy
+
+@ station | Everyday | Name a type of station.
+R Train station/Railway station; Police station; Fire station; Bus station; Petrol station/Gas station
+S Space station
+W Radio station; TV station/Television station; Weather station; Power station/Power plant; Service station; Polling station; Charging station; Docking station; Tube station/Underground station/Subway station/Metro station; Coach station; Lifeboat station; Pumping station
+A Ambulance station; Research station; Relay station; Coastguard station/Coast guard station; Way station; Workstation/Work station; Ranger station; Filling station; Nurses' station/Nurse station; Base station; Ground station; Naval station; Sheep station; Cattle station; Substation
+X Tracking station; Numbers station; Listening station; Hill station; Monitoring station; Seismic station; Trading station; Baby changing station/Changing station; Feeding station; Weigh station
+B Ghost station; Stations of the Cross/Station of the Cross; Duty station
+
+@ superheroteam | Film & TV | Name a superhero team (comics, film or TV).
+R Avengers; X-Men; Justice League; Fantastic Four
+S Teenage Mutant Ninja Turtles/Ninja Turtles/TMNT
+W Guardians of the Galaxy/Guardians; Teen Titans; Suicide Squad; The Incredibles/Incredibles; Power Rangers; Watchmen; The Boys; The Defenders/Defenders; Big Hero 6; Justice Society of America/Justice Society/JSA; Thunderbolts; Inhumans; Eternals; Young Avengers; The Seven; The Umbrella Academy/Umbrella Academy; X-Force
+A Doom Patrol; Legion of Super-Heroes/Legion of Superheroes; New Mutants; X-Factor; Excalibur; Young Justice; The Outsiders/Outsiders; Titans; Runaways; Champions; Heroes for Hire; Justice League Dark; Birds of Prey; Mystery Men; Gen13; WildC.A.T.s/WildCATS; The Authority; Invaders; Squadron Supreme
+X Alpha Flight; Power Pack; Infinity Inc; Blackhawks; Challengers of the Unknown; Metal Men; Forever People; Agents of Atlas; Super Friends; League of Extraordinary Gentlemen
+B Great Lakes Avengers; Inferior Five; Legion of Substitute Heroes

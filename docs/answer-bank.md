@@ -1,6 +1,6 @@
 # Raredar — answer bank
 
-Generated from `data/prompts.txt` and `data/free-prompts.txt`. 251 prompts, 21586 accepted answers.
+Generated from `data/prompts.txt` and `data/free-prompts.txt`. 256 prompts, 21832 accepted answers.
 
 ## What each tier does
 
@@ -557,7 +557,7 @@ Matching ignores capitals, accents, punctuation and a leading "the"; one typo is
 - **Rookie (10)** — Roger Federer _(also: Federer)_; Serena Williams _(also: Serena)_; Rafael Nadal _(also: Nadal, Rafa)_; Novak Djokovic _(also: Djokovic)_
 - **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
 
-## Free Flight & Endurance bank — 200 prompts
+## Free Flight & Endurance bank — 205 prompts
 
 ### Animals
 
@@ -619,6 +619,16 @@ Matching ignores capitals, accents, punctuation and a leading "the"; one typo is
 - **Wingman (30)** — King cobra; Boa constrictor _(also: Boa)_; Viper; Adder; Grass snake; Corn snake; Garter snake; Coral snake; Sea snake; Taipan; Green mamba _(also: Mamba)_; Kingsnake _(also: King snake)_; Milk snake; Copperhead; Cottonmouth _(also: Water moccasin)_
 - **Showboat (15)** — Black mamba
 - **Rookie (10)** — Cobra; Python; Rattlesnake; Anaconda
+- **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
+
+#### Name an animal whose name is exactly four letters long.  `fourletteranimal` · 68 answers
+
+- **Sonic Boom (100)** — Mara; Saki; Kagu; Nene; Huia
+- **Stealth (85)** — Tahr; Oryx; Zebu; Anoa; Pika; Titi; Tern; Kaka; Smew; Weka; Shad; Dace; Rhea; Gaur; Myna
+- **Ace (60)** — Ibex; Lynx; Newt; Wasp; Gnat; Mink; Vole; Kudu; Lark; Wren; Hawk; Kite; Rook; Ibis; Tuna; Carp; Pike; Clam; Slug; Flea; Tick; Gull; Coot; Teal
+- **Wingman (30)** — Wolf; Deer; Goat; Lamb; Seal; Swan; Crab; Toad; Moth; Mole; Hare; Kiwi; Puma; Orca; Crow; Dove; Worm; Mule; Bull
+- **Showboat (15)** — Dodo
+- **Rookie (10)** — Lion; Bear; Frog; Duck
 - **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
 
 ### Aviation
@@ -1017,6 +1027,16 @@ Matching ignores capitals, accents, punctuation and a leading "the"; one typo is
 - **Rookie (10)** — Ponytail; Bob; Pixie cut; Mohawk _(also: Mohican)_; Plaits _(also: Braids)_
 - **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
 
+#### Name a type of station.  `station` · 46 answers
+
+- **Sonic Boom (100)** — Ghost station; Stations of the Cross _(also: Station of the Cross)_; Duty station
+- **Stealth (85)** — Tracking station; Numbers station; Listening station; Hill station; Monitoring station; Seismic station; Trading station; Baby changing station _(also: Changing station)_; Feeding station; Weigh station
+- **Ace (60)** — Ambulance station; Research station; Relay station; Coastguard station _(also: Coast guard station)_; Way station; Workstation _(also: Work station)_; Ranger station; Filling station; Nurses' station _(also: Nurse station)_; Base station; Ground station; Naval station; Sheep station; Cattle station; Substation
+- **Wingman (30)** — Radio station; TV station _(also: Television station)_; Weather station; Power station _(also: Power plant)_; Service station; Polling station; Charging station; Docking station; Tube station _(also: Underground station, Subway station, Metro station)_; Coach station; Lifeboat station; Pumping station
+- **Showboat (15)** — Space station
+- **Rookie (10)** — Train station _(also: Railway station)_; Police station; Fire station; Bus station; Petrol station _(also: Gas station)_
+- **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
+
 ### Film & TV
 
 #### Name a film director.  `filmdirector` · 108 answers
@@ -1197,6 +1217,16 @@ Matching ignores capitals, accents, punctuation and a leading "the"; one typo is
 - **Wingman (30)** — Rowlf the Dog _(also: Rowlf)_; Swedish Chef; Statler; Waldorf; Beaker; Dr. Bunsen Honeydew _(also: Bunsen Honeydew, Bunsen)_; Scooter; Sam Eagle _(also: Sam the Eagle)_; Rizzo the Rat _(also: Rizzo)_; Pepe the King Prawn _(also: Pepe)_; Dr. Teeth; Camilla the Chicken _(also: Camilla)_; Sweetums; Walter; Cookie Monster; Elmo; Oscar the Grouch _(also: Oscar)_; Bert; Ernie; Grover; Count von Count _(also: The Count)_; Mr. Snuffleupagus _(also: Snuffleupagus)_
 - **Showboat (15)** — Big Bird
 - **Rookie (10)** — Kermit the Frog _(also: Kermit)_; Miss Piggy _(also: Piggy)_; Fozzie Bear _(also: Fozzie)_; Gonzo _(also: The Great Gonzo)_; Animal
+- **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
+
+#### Name a superhero team (comics, film or TV).  `superheroteam` · 54 answers
+
+- **Sonic Boom (100)** — Great Lakes Avengers; Inferior Five; Legion of Substitute Heroes
+- **Stealth (85)** — Alpha Flight; Power Pack; Infinity Inc; Blackhawks; Challengers of the Unknown; Metal Men; Forever People; Agents of Atlas; Super Friends; League of Extraordinary Gentlemen
+- **Ace (60)** — Doom Patrol; Legion of Super-Heroes _(also: Legion of Superheroes)_; New Mutants; X-Factor; Excalibur; Young Justice; The Outsiders _(also: Outsiders)_; Titans; Runaways; Champions; Heroes for Hire; Justice League Dark; Birds of Prey; Mystery Men; Gen13; WildC.A.T.s _(also: WildCATS)_; The Authority; Invaders; Squadron Supreme
+- **Wingman (30)** — Guardians of the Galaxy _(also: Guardians)_; Teen Titans; Suicide Squad; The Incredibles _(also: Incredibles)_; Power Rangers; Watchmen; The Boys; The Defenders _(also: Defenders)_; Big Hero 6; Justice Society of America _(also: Justice Society, JSA)_; Thunderbolts; Inhumans; Eternals; Young Avengers; The Seven; The Umbrella Academy _(also: Umbrella Academy)_; X-Force
+- **Showboat (15)** — Teenage Mutant Ninja Turtles _(also: Ninja Turtles, TMNT)_
+- **Rookie (10)** — Avengers; X-Men; Justice League; Fantastic Four
 - **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
 
 ### Food & Drink
@@ -1429,6 +1459,16 @@ Matching ignores capitals, accents, punctuation and a leading "the"; one typo is
 - **Wingman (30)** — Cumberland; Lincolnshire; Chipolata; Kielbasa; Saveloy; Bockwurst; Merguez; Andouille; Pork sausage; Cocktail sausage; Polish sausage; Italian sausage; Wiener _(also: Vienna sausage)_; Toulouse sausage _(also: Toulouse)_; Mortadella; Pigs in blankets
 - **Showboat (15)** — Black pudding _(also: Blood sausage)_
 - **Rookie (10)** — Chorizo; Frankfurter _(also: Hot dog)_; Pepperoni; Salami; Bratwurst
+- **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
+
+#### Name a way to prepare potatoes.  `potatoes` · 41 answers
+
+- **Sonic Boom (100)** — Aligot; Pommes soufflées _(also: Pommes souffle)_; Chuño _(also: Chuno)_
+- **Stealth (85)** — Pommes Anna _(also: Potatoes Anna)_; Boxty; Aloo gobi; Spanish omelette _(also: Tortilla española, Tortilla)_; Pierogi; Fondant potatoes; Rumbledethumps; Pommes dauphine; Stovies
+- **Ace (60)** — Gnocchi; Rösti _(also: Rosti)_; Dauphinoise _(also: Gratin dauphinois, Potatoes au gratin, Gratin)_; Hasselback potatoes _(also: Hasselback)_; Latkes _(also: Latke, Potato pancakes)_; Croquettes _(also: Potato croquettes)_; Duchess potatoes; Smashed potatoes; Bubble and squeak; Colcannon; Patatas bravas; Boulangère potatoes _(also: Boulangere potatoes)_; Potato skins; Lyonnaise potatoes; Champ
+- **Wingman (30)** — Roast potatoes _(also: Roasted potatoes, Roast)_; Boiled potatoes _(also: Boiled)_; Hash browns _(also: Hash brown)_; Wedges _(also: Potato wedges)_; Potato salad; Sautéed potatoes _(also: Sauteed potatoes, Sauté)_; Scalloped potatoes; Tater tots; Twice-baked potatoes _(also: Twice baked)_; Home fries
+- **Showboat (15)** — Crisps _(also: Potato chips)_
+- **Rookie (10)** — Mashed potatoes _(also: Mashed, Mash)_; French fries _(also: Fries, Chips)_; Baked potato _(also: Baked, Jacket potato)_
 - **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
 
 ### Games
@@ -2467,6 +2507,16 @@ Matching ignores capitals, accents, punctuation and a leading "the"; one typo is
 - **Wingman (30)** — New Balance; Asics; Umbro; Fila; Champion; Kappa; Converse; Vans; Skechers; Gymshark; Speedo; Wilson; Slazenger; Dunlop; Head; Babolat; Lonsdale; Everlast; Mizuno; Brooks; Saucony; Hoka; On _(also: On Running)_; Salomon; The North Face _(also: North Face)_; Columbia; Patagonia; Oakley; Callaway; TaylorMade; Titleist; Rawlings; Spalding; Gola; Hummel; Le Coq Sportif; Ellesse; Diadora; Lotto; Admiral; Sergio Tacchini
 - **Showboat (15)** — Lululemon
 - **Rookie (10)** — Nike; Adidas; Puma; Under Armour; Reebok
+- **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
+
+#### Name someone who has won the NBA regular-season MVP award.  `nbamvp` · 37 answers
+
+- **Sonic Boom (100)** — Bob Pettit _(also: Pettit)_; Bob Cousy _(also: Cousy)_
+- **Stealth (85)** — Bill Walton _(also: Walton)_; Bob McAdoo _(also: McAdoo)_; Wes Unseld _(also: Unseld)_; Dave Cowens _(also: Cowens)_; Willis Reed
+- **Ace (60)** — Dirk Nowitzki _(also: Dirk, Nowitzki)_; Kevin Garnett _(also: Garnett)_; Karl Malone; Hakeem Olajuwon _(also: Hakeem, Olajuwon)_; Charles Barkley _(also: Barkley)_; David Robinson; Moses Malone; Oscar Robertson; Joel Embiid _(also: Embiid)_; Shai Gilgeous-Alexander _(also: SGA)_; Julius Erving _(also: Dr J)_
+- **Wingman (30)** — Magic Johnson _(also: Magic)_; Larry Bird; Kareem Abdul-Jabbar _(also: Kareem)_; Kevin Durant _(also: Durant)_; Giannis Antetokounmpo _(also: Giannis)_; Tim Duncan _(also: Duncan)_; Nikola Jokić _(also: Jokic)_; Wilt Chamberlain _(also: Wilt)_; Bill Russell; Allen Iverson _(also: Iverson)_; Steve Nash _(also: Nash)_; Derrick Rose; James Harden _(also: Harden)_; Russell Westbrook _(also: Westbrook)_
+- **Showboat (15)** — Shaquille O'Neal _(also: Shaq)_
+- **Rookie (10)** — Michael Jordan _(also: Jordan)_; LeBron James _(also: LeBron)_; Stephen Curry _(also: Steph Curry, Curry)_; Kobe Bryant _(also: Kobe)_
 - **Stall (0)** — anything else: the player is told it's not correct and can retry until the 25 s clock runs out.
 
 ### Tech

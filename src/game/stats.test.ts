@@ -63,8 +63,8 @@ describe('mission packs and hangar', () => {
   });
   it('reports unlocks when crossing thresholds', () => {
     expect(newUnlocks(0, 299)).toEqual([]);
-    expect(newUnlocks(250, 520)).toEqual(['Kestrel (jet)', 'Ember paint']);
-    expect(nextUnlock(0)).toEqual({ name: 'Ember', at: 300 });
+    expect(newUnlocks(250, 520)).toEqual(['Mantis (jet)', 'Aggressor paint']);
+    expect(nextUnlock(0)).toEqual({ name: 'Aggressor', at: 300 });
   });
   it('free flights add hours and records but not streaks', () => {
     let s = recordFree(load(), 'endurance', 820);

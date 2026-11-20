@@ -1,10 +1,10 @@
 [
-  { "id": "arctic", "name": "Arctic", "body": "#d5dde8", "accent": "#3b82c4", "unlockAtFlightHours": 0 },
-  { "id": "dusk", "name": "Dusk", "body": "#cdbcdc", "accent": "#ff7a59", "unlockAtFlightHours": 0 },
-  { "id": "moss", "name": "Moss", "body": "#a9bca3", "accent": "#2f4a2e", "unlockAtFlightHours": 0 },
-  { "id": "ember", "name": "Ember", "body": "#ead0b6", "accent": "#ff4d4d", "unlockAtFlightHours": 300 },
-  { "id": "midnight", "name": "Midnight", "body": "#3a4560", "accent": "#6cff8f", "unlockAtFlightHours": 900 },
-  { "id": "sunburst", "name": "Sunburst", "body": "#ffd166", "accent": "#ef476f", "unlockAtFlightHours": 1800 },
-  { "id": "gold", "name": "Gilded", "body": "#f2e2a0", "accent": "#b8860b", "unlockAtFlightHours": 3000 },
-  { "id": "ghost", "name": "Ghost", "body": "#5a606c", "accent": "#c9d3df", "unlockAtFlightHours": 6000 }
+  {"id":  "arctic", "name":  "Air Superiority", "body":  "#aab3bd", "accent":  "#34506e", "unlockAtFlightHours":  0},
+  {"id":  "dusk", "name":  "Desert", "body":  "#c9b48f", "accent":  "#6b5435", "unlockAtFlightHours":  0},
+  {"id":  "moss", "name":  "Woodland", "body":  "#7f8b6c", "accent":  "#3b4630", "unlockAtFlightHours":  0},
+  {"id":  "ember", "name":  "Aggressor", "body":  "#d6c3a2", "accent":  "#9b3a2a", "unlockAtFlightHours":  300},
+  {"id":  "midnight", "name":  "Night Ops", "body":  "#3f4652", "accent":  "#8fa0b3", "unlockAtFlightHours":  900},
+  {"id":  "sunburst", "name":  "Display Team", "body":  "#e9edf1", "accent":  "#c8102e", "unlockAtFlightHours":  1800},
+  {"id":  "gold", "name":  "Anniversary", "body":  "#d9c38a", "accent":  "#7a5a12", "unlockAtFlightHours":  3000},
+  {"id":  "ghost", "name":  "Ghost Grey", "body":  "#6c737d", "accent":  "#c9d3df", "unlockAtFlightHours":  6000}
 ]
